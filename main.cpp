@@ -7,6 +7,10 @@
 int main()
 {
     std::unique_ptr<StdLibBase> ptr(new MatchAdd());
-    std::cout << "result :" << ptr->execute() << std::endl;
+    if (ptr->execute() == SUCESS) {
+        std::cout << "the result is ok" << std::endl;
+    } else {
+        std::cout << "the result is faiure" << std::endl;
+    }
     return 0;
 }
