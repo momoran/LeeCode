@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Documents/programming/codeSet/LeeCode/LeeCode/source/MatchAdd.cpp
+MatchAdd.h
+D:/Documents/programming/codeSet/LeeCode/LeeCode/source/MatchAdd.h
+iostream
+-
+
+include/MatchAdd.h
+std_lib.h
+include/std_lib.h
+operateLib.h
+include/operateLib.h
+iostream
+-
+
+include/operateLib.h
+
+include/std_lib.h
+operateLib.h
+include/operateLib.h
+

@@ -98,14 +98,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles D:\Documents\programming\codeSet\LeeCode\LeeCode\\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles D:\Documents\programming\codeSet\LeeCode\LeeCode\source\\CMakeFiles\progress.marks
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/clean
 .PHONY : clean
 
 # The main clean target
@@ -115,71 +115,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named main
+# Convenience name for target.
+source/CMakeFiles/Math.dir/rule:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/CMakeFiles/Math.dir/rule
+.PHONY : source/CMakeFiles/Math.dir/rule
 
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main
-.PHONY : main
+# Convenience name for target.
+Math: source/CMakeFiles/Math.dir/rule
 
-# fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
-
-#=============================================================================
-# Target rules for targets named Math
-
-# Build rule for target.
-Math: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Math
 .PHONY : Math
 
 # fast build rule for target.
 Math/fast:
-	$(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/build
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/build
 .PHONY : Math/fast
 
-main.obj: main.cpp.obj
+MatchAdd.obj: MatchAdd.cpp.obj
 
-.PHONY : main.obj
+.PHONY : MatchAdd.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+MatchAdd.cpp.obj:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/MatchAdd.cpp.obj
+.PHONY : MatchAdd.cpp.obj
 
-main.i: main.cpp.i
+MatchAdd.i: MatchAdd.cpp.i
 
-.PHONY : main.i
+.PHONY : MatchAdd.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.i
-.PHONY : main.cpp.i
+MatchAdd.cpp.i:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/MatchAdd.cpp.i
+.PHONY : MatchAdd.cpp.i
 
-main.s: main.cpp.s
+MatchAdd.s: MatchAdd.cpp.s
 
-.PHONY : main.s
+.PHONY : MatchAdd.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.s
-.PHONY : main.cpp.s
+MatchAdd.cpp.s:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/MatchAdd.cpp.s
+.PHONY : MatchAdd.cpp.s
 
 # Help Target
 help:
@@ -190,10 +179,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Math
-	@echo ... main
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... MatchAdd.obj
+	@echo ... MatchAdd.i
+	@echo ... MatchAdd.s
 .PHONY : help
 
 
@@ -205,6 +193,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

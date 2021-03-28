@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Documents/programming/codeSet/LeeCode/LeeCode/main.cpp" "D:/Documents/programming/codeSet/LeeCode/LeeCode/CMakeFiles/main.dir/main.cpp.obj"
+  "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/MatchAdd.cpp" "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/CMakeFiles/Math.dir/MatchAdd.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,7 +15,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/CMakeFiles/Math.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

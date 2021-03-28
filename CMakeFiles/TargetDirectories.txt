@@ -1,6 +1,6 @@
-D:/Documents/programming/codeSet/HelloWorld/CMakeFiles/edit_cache.dir
-D:/Documents/programming/codeSet/HelloWorld/CMakeFiles/main.dir
-D:/Documents/programming/codeSet/HelloWorld/CMakeFiles/rebuild_cache.dir
-D:/Documents/programming/codeSet/HelloWorld/source/CMakeFiles/Math.dir
-D:/Documents/programming/codeSet/HelloWorld/source/CMakeFiles/edit_cache.dir
-D:/Documents/programming/codeSet/HelloWorld/source/CMakeFiles/rebuild_cache.dir
+D:/Documents/programming/codeSet/LeeCode/LeeCode/CMakeFiles/edit_cache.dir
+D:/Documents/programming/codeSet/LeeCode/LeeCode/CMakeFiles/main.dir
+D:/Documents/programming/codeSet/LeeCode/LeeCode/CMakeFiles/rebuild_cache.dir
+D:/Documents/programming/codeSet/LeeCode/LeeCode/source/CMakeFiles/Math.dir
+D:/Documents/programming/codeSet/LeeCode/LeeCode/source/CMakeFiles/edit_cache.dir
+D:/Documents/programming/codeSet/LeeCode/LeeCode/source/CMakeFiles/rebuild_cache.dir
