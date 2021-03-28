@@ -7,6 +7,6 @@
 int main()
 {
     StdLibBase* ptr = new MatchAdd;
-    std::cout << ptr->execute() << std::endl;
+    std::cout << "result :" << ptr->execute() << std::endl;
     return 0;
 }

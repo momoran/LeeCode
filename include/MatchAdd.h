@@ -2,17 +2,23 @@
 #define _MATCHADD_H
 #include "std_lib.h"
 #include "operateLib.h"
+#include <vector>
 
 class MatchAdd : public StdLibBase
 {
 public:
     MatchAdd();
     virtual ~MatchAdd();
-    virtual int execute() override;
-
+    WORD execute() override;
+    void UpdateTestCase() override;
+    WORD VerifyResult() override;
+    
 private:
-    int a{2};
-    int b{1};
+    std::vector<int> twoSum(std::vector<int>& nums, int target);
+    std::vector<int> nums;
+    int target;
+    std::vector<int> result;
+    std::vector<int> hopeResult;
 };
 
 #endif

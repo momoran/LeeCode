@@ -4,4 +4,6 @@
 using WORD = unsigned int;
 using BYTE = unsigned char;
 
+constexpr WORD SUCESS = 0;
+constexpr WORD FAILURE = 1;
 #endif
