@@ -6,19 +6,25 @@
 
 #IncludeRegexTransform: 
 
-D:/Documents/programming/codeSet/HelloWorld/main.cpp
+D:/Documents/programming/codeSet/LeeCode/LeeCode/main.cpp
 iostream
 -
-mathCalculate.h
-D:/Documents/programming/codeSet/HelloWorld/mathCalculate.h
 operateLib.h
-D:/Documents/programming/codeSet/HelloWorld/operateLib.h
-map
--
-tuple
--
+D:/Documents/programming/codeSet/LeeCode/LeeCode/operateLib.h
+std_lib.h
+D:/Documents/programming/codeSet/LeeCode/LeeCode/std_lib.h
+MatchAdd.h
+D:/Documents/programming/codeSet/LeeCode/LeeCode/MatchAdd.h
 
-include/mathCalculate.h
+include/MatchAdd.h
+std_lib.h
+include/std_lib.h
+operateLib.h
+include/operateLib.h
 
+include/operateLib.h
+
+include/std_lib.h
+operateLib.h
 include/operateLib.h
 

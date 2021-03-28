@@ -6,7 +6,7 @@
 
 int main()
 {
-    StdLibBase *p = new MatchAdd;
-    p.execute();
+    StdLibBase* ptr = new MatchAdd;
+    std::cout << ptr->execute() << std::endl;
     return 0;
 }

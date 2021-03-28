@@ -17,8 +17,6 @@ std_lib.h
 include/std_lib.h
 operateLib.h
 include/operateLib.h
-iostream
--
 
 include/operateLib.h
 

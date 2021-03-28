@@ -2,18 +2,17 @@
 #define _MATCHADD_H
 #include "std_lib.h"
 #include "operateLib.h"
-#include <iostream>
 
 class MatchAdd : public StdLibBase
 {
 public:
     MatchAdd();
-    ~MatchAdd();
-    void execute() override;
-    
+    virtual ~MatchAdd();
+    virtual int execute() override;
+
 private:
-    BYTE a{0};
-    BYTE b{0};
+    int a{2};
+    int b{1};
 };
 
 #endif
