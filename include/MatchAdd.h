@@ -16,9 +16,9 @@ public:
 private:
     std::vector<int> twoSum(std::vector<int>& nums, int target);
     std::vector<int> nums;
-    int target;
     std::vector<int> result;
     std::vector<int> hopeResult;
+    int target;
 };
 
 #endif
