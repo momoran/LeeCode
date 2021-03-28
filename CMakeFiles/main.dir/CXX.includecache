@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Documents/programming/codeSet/HelloWorld/main.cpp
+iostream
+-
+mathCalculate.h
+D:/Documents/programming/codeSet/HelloWorld/mathCalculate.h
+operateLib.h
+D:/Documents/programming/codeSet/HelloWorld/operateLib.h
+map
+-
+tuple
+-
+
+include/mathCalculate.h
+
+include/operateLib.h
+
