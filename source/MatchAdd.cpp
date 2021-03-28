@@ -34,9 +34,9 @@ std::vector<int> MatchAdd::twoSum(std::vector<int>& nums, int target)
 
 void MatchAdd::UpdateTestCase()
 {
-    nums = {3,3,4};
+    nums = {3,2,4};
     target = 6;
-    hopeResult = {0, 1};
+    hopeResult = {1, 2};
 }
 
 WORD MatchAdd::VerifyResult()

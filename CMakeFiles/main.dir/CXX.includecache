@@ -17,6 +17,10 @@ MatchAdd.h
 D:/Documents/programming/codeSet/LeeCode/LeeCode/MatchAdd.h
 memory
 -
+map
+-
+string
+-
 
 include/MatchAdd.h
 std_lib.h
