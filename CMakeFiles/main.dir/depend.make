@@ -4,6 +4,7 @@
 CMakeFiles/main.dir/main.cpp.obj: main.cpp
 CMakeFiles/main.dir/main.cpp.obj: include/HammingWeight.h
 CMakeFiles/main.dir/main.cpp.obj: include/MatchAdd.h
+CMakeFiles/main.dir/main.cpp.obj: include/SubArray.h
 CMakeFiles/main.dir/main.cpp.obj: include/operateLib.h
 CMakeFiles/main.dir/main.cpp.obj: include/std_lib.h
 

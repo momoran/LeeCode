@@ -197,6 +197,33 @@ MatchAdd.cpp.s:
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/MatchAdd.cpp.s
 .PHONY : MatchAdd.cpp.s
 
+SubArray.obj: SubArray.cpp.obj
+
+.PHONY : SubArray.obj
+
+# target to build an object file
+SubArray.cpp.obj:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/SubArray.cpp.obj
+.PHONY : SubArray.cpp.obj
+
+SubArray.i: SubArray.cpp.i
+
+.PHONY : SubArray.i
+
+# target to preprocess a source file
+SubArray.cpp.i:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/SubArray.cpp.i
+.PHONY : SubArray.cpp.i
+
+SubArray.s: SubArray.cpp.s
+
+.PHONY : SubArray.s
+
+# target to generate assembly for a file
+SubArray.cpp.s:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/SubArray.cpp.s
+.PHONY : SubArray.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -212,6 +239,9 @@ help:
 	@echo ... MatchAdd.obj
 	@echo ... MatchAdd.i
 	@echo ... MatchAdd.s
+	@echo ... SubArray.obj
+	@echo ... SubArray.i
+	@echo ... SubArray.s
 .PHONY : help
 
 
