@@ -1,12 +1,4 @@
-#include <iostream>
-#include "operateLib.h"
-#include "std_lib.h"
-#include "MatchAdd.h"
-#include <memory>
-#include <map>
-#include <string>
-#include "SubArray.h"
-#include "HammingWeight.h"
+#include "CommonInterferce.h"
 
 int main()
 {

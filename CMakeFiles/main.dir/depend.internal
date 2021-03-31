@@ -3,6 +3,7 @@
 
 CMakeFiles/main.dir/main.cpp.obj
  D:/Documents/programming/codeSet/LeeCode/LeeCode/main.cpp
+ include/CommonInterferce.h
  include/HammingWeight.h
  include/MatchAdd.h
  include/SubArray.h
