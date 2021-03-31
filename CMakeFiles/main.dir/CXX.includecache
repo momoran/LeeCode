@@ -21,6 +21,16 @@ map
 -
 string
 -
+HammingWeight.h
+D:/Documents/programming/codeSet/LeeCode/LeeCode/HammingWeight.h
+
+include/HammingWeight.h
+std_lib.h
+include/std_lib.h
+operateLib.h
+include/operateLib.h
+stdint.h
+-
 
 include/MatchAdd.h
 std_lib.h

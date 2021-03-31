@@ -143,6 +143,33 @@ Math/fast:
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/build
 .PHONY : Math/fast
 
+HammingWeight.obj: HammingWeight.cpp.obj
+
+.PHONY : HammingWeight.obj
+
+# target to build an object file
+HammingWeight.cpp.obj:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/HammingWeight.cpp.obj
+.PHONY : HammingWeight.cpp.obj
+
+HammingWeight.i: HammingWeight.cpp.i
+
+.PHONY : HammingWeight.i
+
+# target to preprocess a source file
+HammingWeight.cpp.i:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/HammingWeight.cpp.i
+.PHONY : HammingWeight.cpp.i
+
+HammingWeight.s: HammingWeight.cpp.s
+
+.PHONY : HammingWeight.s
+
+# target to generate assembly for a file
+HammingWeight.cpp.s:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/HammingWeight.cpp.s
+.PHONY : HammingWeight.cpp.s
+
 MatchAdd.obj: MatchAdd.cpp.obj
 
 .PHONY : MatchAdd.obj
@@ -179,6 +206,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Math
+	@echo ... HammingWeight.obj
+	@echo ... HammingWeight.i
+	@echo ... HammingWeight.s
 	@echo ... MatchAdd.obj
 	@echo ... MatchAdd.i
 	@echo ... MatchAdd.s

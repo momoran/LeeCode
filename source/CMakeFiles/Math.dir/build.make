@@ -75,10 +75,24 @@ include source/CMakeFiles/Math.dir/progress.make
 # Include the compile flags for this target's objects.
 include source/CMakeFiles/Math.dir/flags.make
 
+source/CMakeFiles/Math.dir/HammingWeight.cpp.obj: source/CMakeFiles/Math.dir/flags.make
+source/CMakeFiles/Math.dir/HammingWeight.cpp.obj: source/CMakeFiles/Math.dir/includes_CXX.rsp
+source/CMakeFiles/Math.dir/HammingWeight.cpp.obj: source/HammingWeight.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object source/CMakeFiles/Math.dir/HammingWeight.cpp.obj"
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Math.dir\HammingWeight.cpp.obj -c D:\Documents\programming\codeSet\LeeCode\LeeCode\source\HammingWeight.cpp
+
+source/CMakeFiles/Math.dir/HammingWeight.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Math.dir/HammingWeight.cpp.i"
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Documents\programming\codeSet\LeeCode\LeeCode\source\HammingWeight.cpp > CMakeFiles\Math.dir\HammingWeight.cpp.i
+
+source/CMakeFiles/Math.dir/HammingWeight.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Math.dir/HammingWeight.cpp.s"
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Documents\programming\codeSet\LeeCode\LeeCode\source\HammingWeight.cpp -o CMakeFiles\Math.dir\HammingWeight.cpp.s
+
 source/CMakeFiles/Math.dir/MatchAdd.cpp.obj: source/CMakeFiles/Math.dir/flags.make
 source/CMakeFiles/Math.dir/MatchAdd.cpp.obj: source/CMakeFiles/Math.dir/includes_CXX.rsp
 source/CMakeFiles/Math.dir/MatchAdd.cpp.obj: source/MatchAdd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object source/CMakeFiles/Math.dir/MatchAdd.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object source/CMakeFiles/Math.dir/MatchAdd.cpp.obj"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Math.dir\MatchAdd.cpp.obj -c D:\Documents\programming\codeSet\LeeCode\LeeCode\source\MatchAdd.cpp
 
 source/CMakeFiles/Math.dir/MatchAdd.cpp.i: cmake_force
@@ -91,15 +105,17 @@ source/CMakeFiles/Math.dir/MatchAdd.cpp.s: cmake_force
 
 # Object files for target Math
 Math_OBJECTS = \
+"CMakeFiles/Math.dir/HammingWeight.cpp.obj" \
 "CMakeFiles/Math.dir/MatchAdd.cpp.obj"
 
 # External object files for target Math
 Math_EXTERNAL_OBJECTS =
 
+source/libMath.a: source/CMakeFiles/Math.dir/HammingWeight.cpp.obj
 source/libMath.a: source/CMakeFiles/Math.dir/MatchAdd.cpp.obj
 source/libMath.a: source/CMakeFiles/Math.dir/build.make
 source/libMath.a: source/CMakeFiles/Math.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libMath.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libMath.a"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source && $(CMAKE_COMMAND) -P CMakeFiles\Math.dir\cmake_clean_target.cmake
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Math.dir\link.txt --verbose=$(VERBOSE)
 
