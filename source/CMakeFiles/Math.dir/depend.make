@@ -11,3 +11,8 @@ source/CMakeFiles/Math.dir/MatchAdd.cpp.obj: include/MatchAdd.h
 source/CMakeFiles/Math.dir/MatchAdd.cpp.obj: include/operateLib.h
 source/CMakeFiles/Math.dir/MatchAdd.cpp.obj: include/std_lib.h
 
+source/CMakeFiles/Math.dir/SubArray.cpp.obj: source/SubArray.cpp
+source/CMakeFiles/Math.dir/SubArray.cpp.obj: include/SubArray.h
+source/CMakeFiles/Math.dir/SubArray.cpp.obj: include/operateLib.h
+source/CMakeFiles/Math.dir/SubArray.cpp.obj: include/std_lib.h
+

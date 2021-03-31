@@ -6,18 +6,18 @@
 
 #IncludeRegexTransform: 
 
-D:/Documents/programming/codeSet/LeeCode/LeeCode/source/HammingWeight.cpp
-HammingWeight.h
-D:/Documents/programming/codeSet/LeeCode/LeeCode/source/HammingWeight.h
+D:/Documents/programming/codeSet/LeeCode/LeeCode/source/SubArray.cpp
+SubArray.h
+D:/Documents/programming/codeSet/LeeCode/LeeCode/source/SubArray.h
 iostream
 -
 
-include/HammingWeight.h
+include/SubArray.h
 std_lib.h
 include/std_lib.h
 operateLib.h
 include/operateLib.h
-stdint.h
+vector
 -
 
 include/operateLib.h
