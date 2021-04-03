@@ -14,7 +14,7 @@ public:
     WORD VerifyResult() override;
     
 private:
-    int hammingWeightc(uint32_t n);
+    int hammingWeight(uint32_t n);
     uint32_t inputNum;
     int result;
     int hopeResult;
