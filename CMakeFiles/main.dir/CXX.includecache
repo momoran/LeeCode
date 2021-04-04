@@ -57,6 +57,8 @@ vector
 -
 
 include/operateLib.h
+stdint.h
+-
 
 include/std_lib.h
 operateLib.h

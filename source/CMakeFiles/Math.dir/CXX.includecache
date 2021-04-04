@@ -6,10 +6,36 @@
 
 #IncludeRegexTransform: 
 
+D:/Documents/programming/codeSet/LeeCode/LeeCode/source/HammingWeight.cpp
+HammingWeight.h
+D:/Documents/programming/codeSet/LeeCode/LeeCode/source/HammingWeight.h
+iostream
+-
+
+D:/Documents/programming/codeSet/LeeCode/LeeCode/source/MatchAdd.cpp
+MatchAdd.h
+D:/Documents/programming/codeSet/LeeCode/LeeCode/source/MatchAdd.h
+
 D:/Documents/programming/codeSet/LeeCode/LeeCode/source/SubArray.cpp
 SubArray.h
 D:/Documents/programming/codeSet/LeeCode/LeeCode/source/SubArray.h
 iostream
+-
+
+include/HammingWeight.h
+std_lib.h
+include/std_lib.h
+operateLib.h
+include/operateLib.h
+stdint.h
+-
+
+include/MatchAdd.h
+std_lib.h
+include/std_lib.h
+operateLib.h
+include/operateLib.h
+vector
 -
 
 include/SubArray.h
@@ -21,6 +47,8 @@ vector
 -
 
 include/operateLib.h
+stdint.h
+-
 
 include/std_lib.h
 operateLib.h

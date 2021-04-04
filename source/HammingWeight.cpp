@@ -13,11 +13,11 @@ HammingWeight::~HammingWeight()
 WORD HammingWeight::execute()
 {
     UpdateTestCase();
-    result = hammingWeightc(inputNum);
+    result = hammingWeight(inputNum);
     return VerifyResult();
 }
 
-int HammingWeight::hammingWeightc(uint32_t n)
+int HammingWeight::hammingWeight(uint32_t n)
 {
     int cnt = 0;
     constexpr BYTE bitCnt = 32;
