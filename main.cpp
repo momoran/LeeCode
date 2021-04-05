@@ -5,6 +5,7 @@ int main()
     std::map<WORD, std::string> output = {
         {SUCESS, "the result is ok"},
         {FAILURE, "the result is faiure"},
+        {INVALID, "please init result"},
     };
     std::unique_ptr<StdLibBase> ptr(new SubArray());
     auto it = output.find(ptr->execute());

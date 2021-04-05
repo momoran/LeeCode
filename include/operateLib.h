@@ -8,4 +8,5 @@ using DWORD = uint32_t;
 
 constexpr WORD SUCESS = 0;
 constexpr WORD FAILURE = 1;
+constexpr WORD INVALID = 0xFF;
 #endif
