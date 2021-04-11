@@ -16,3 +16,14 @@ source/CMakeFiles/Math.dir/SubArray.cpp.obj
  include/SubArray.h
  include/operateLib.h
  include/std_lib.h
+source/CMakeFiles/Math.dir/UnglyNumber.cpp.obj
+ D:/Documents/programming/codeSet/LeeCode/LeeCode/source/UnglyNumber.cpp
+ include/UnglyNumber.h
+ include/operateLib.h
+ include/std_lib.h
+source/CMakeFiles/Math.dir/UnglyNumberNo.cpp.obj
+ D:/Documents/programming/codeSet/LeeCode/LeeCode/source/UnglyNumberNo.cpp
+ include/UnglyNumber.h
+ include/UnglyNumberNo.h
+ include/operateLib.h
+ include/std_lib.h

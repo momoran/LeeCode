@@ -6,23 +6,15 @@
 
 #IncludeRegexTransform: 
 
-D:/Documents/programming/codeSet/LeeCode/LeeCode/source/HammingWeight.cpp
-HammingWeight.h
-D:/Documents/programming/codeSet/LeeCode/LeeCode/source/HammingWeight.h
+D:/Documents/programming/codeSet/LeeCode/LeeCode/source/UnglyNumberNo.cpp
+UnglyNumberNo.h
+D:/Documents/programming/codeSet/LeeCode/LeeCode/source/UnglyNumberNo.h
 iostream
 -
-
-D:/Documents/programming/codeSet/LeeCode/LeeCode/source/MatchAdd.cpp
-MatchAdd.h
-D:/Documents/programming/codeSet/LeeCode/LeeCode/source/MatchAdd.h
-
-D:/Documents/programming/codeSet/LeeCode/LeeCode/source/SubArray.cpp
-SubArray.h
-D:/Documents/programming/codeSet/LeeCode/LeeCode/source/SubArray.h
-iostream
+set
 -
 
-include/HammingWeight.h
+include/UnglyNumber.h
 std_lib.h
 include/std_lib.h
 operateLib.h
@@ -30,21 +22,15 @@ include/operateLib.h
 stdint.h
 -
 
-include/MatchAdd.h
+include/UnglyNumberNo.h
 std_lib.h
 include/std_lib.h
 operateLib.h
 include/operateLib.h
-vector
+stdint.h
 -
-
-include/SubArray.h
-std_lib.h
-include/std_lib.h
-operateLib.h
-include/operateLib.h
-vector
--
+UnglyNumber.h
+include/UnglyNumber.h
 
 include/operateLib.h
 stdint.h

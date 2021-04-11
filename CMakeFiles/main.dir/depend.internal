@@ -7,5 +7,7 @@ CMakeFiles/main.dir/main.cpp.obj
  include/HammingWeight.h
  include/MatchAdd.h
  include/SubArray.h
+ include/UnglyNumber.h
+ include/UnglyNumberNo.h
  include/operateLib.h
  include/std_lib.h

@@ -13,3 +13,5 @@
 #include "SubArray.h"
 #include "HammingWeight.h"
 #include "MatchAdd.h"
+#include "UnglyNumber.h"
+#include "UnglyNumberNo.h"

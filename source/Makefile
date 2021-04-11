@@ -224,6 +224,60 @@ SubArray.cpp.s:
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/SubArray.cpp.s
 .PHONY : SubArray.cpp.s
 
+UnglyNumber.obj: UnglyNumber.cpp.obj
+
+.PHONY : UnglyNumber.obj
+
+# target to build an object file
+UnglyNumber.cpp.obj:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/UnglyNumber.cpp.obj
+.PHONY : UnglyNumber.cpp.obj
+
+UnglyNumber.i: UnglyNumber.cpp.i
+
+.PHONY : UnglyNumber.i
+
+# target to preprocess a source file
+UnglyNumber.cpp.i:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/UnglyNumber.cpp.i
+.PHONY : UnglyNumber.cpp.i
+
+UnglyNumber.s: UnglyNumber.cpp.s
+
+.PHONY : UnglyNumber.s
+
+# target to generate assembly for a file
+UnglyNumber.cpp.s:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/UnglyNumber.cpp.s
+.PHONY : UnglyNumber.cpp.s
+
+UnglyNumberNo.obj: UnglyNumberNo.cpp.obj
+
+.PHONY : UnglyNumberNo.obj
+
+# target to build an object file
+UnglyNumberNo.cpp.obj:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/UnglyNumberNo.cpp.obj
+.PHONY : UnglyNumberNo.cpp.obj
+
+UnglyNumberNo.i: UnglyNumberNo.cpp.i
+
+.PHONY : UnglyNumberNo.i
+
+# target to preprocess a source file
+UnglyNumberNo.cpp.i:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/UnglyNumberNo.cpp.i
+.PHONY : UnglyNumberNo.cpp.i
+
+UnglyNumberNo.s: UnglyNumberNo.cpp.s
+
+.PHONY : UnglyNumberNo.s
+
+# target to generate assembly for a file
+UnglyNumberNo.cpp.s:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/UnglyNumberNo.cpp.s
+.PHONY : UnglyNumberNo.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -242,6 +296,12 @@ help:
 	@echo ... SubArray.obj
 	@echo ... SubArray.i
 	@echo ... SubArray.s
+	@echo ... UnglyNumber.obj
+	@echo ... UnglyNumber.i
+	@echo ... UnglyNumber.s
+	@echo ... UnglyNumberNo.obj
+	@echo ... UnglyNumberNo.i
+	@echo ... UnglyNumberNo.s
 .PHONY : help
 
 

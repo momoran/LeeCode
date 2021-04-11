@@ -31,6 +31,10 @@ HammingWeight.h
 include/HammingWeight.h
 MatchAdd.h
 include/MatchAdd.h
+UnglyNumber.h
+include/UnglyNumber.h
+UnglyNumberNo.h
+include/UnglyNumberNo.h
 
 include/HammingWeight.h
 std_lib.h
@@ -55,6 +59,24 @@ operateLib.h
 include/operateLib.h
 vector
 -
+
+include/UnglyNumber.h
+std_lib.h
+include/std_lib.h
+operateLib.h
+include/operateLib.h
+stdint.h
+-
+
+include/UnglyNumberNo.h
+std_lib.h
+include/std_lib.h
+operateLib.h
+include/operateLib.h
+stdint.h
+-
+UnglyNumber.h
+include/UnglyNumber.h
 
 include/operateLib.h
 stdint.h

@@ -16,3 +16,14 @@ source/CMakeFiles/Math.dir/SubArray.cpp.obj: include/SubArray.h
 source/CMakeFiles/Math.dir/SubArray.cpp.obj: include/operateLib.h
 source/CMakeFiles/Math.dir/SubArray.cpp.obj: include/std_lib.h
 
+source/CMakeFiles/Math.dir/UnglyNumber.cpp.obj: source/UnglyNumber.cpp
+source/CMakeFiles/Math.dir/UnglyNumber.cpp.obj: include/UnglyNumber.h
+source/CMakeFiles/Math.dir/UnglyNumber.cpp.obj: include/operateLib.h
+source/CMakeFiles/Math.dir/UnglyNumber.cpp.obj: include/std_lib.h
+
+source/CMakeFiles/Math.dir/UnglyNumberNo.cpp.obj: source/UnglyNumberNo.cpp
+source/CMakeFiles/Math.dir/UnglyNumberNo.cpp.obj: include/UnglyNumber.h
+source/CMakeFiles/Math.dir/UnglyNumberNo.cpp.obj: include/UnglyNumberNo.h
+source/CMakeFiles/Math.dir/UnglyNumberNo.cpp.obj: include/operateLib.h
+source/CMakeFiles/Math.dir/UnglyNumberNo.cpp.obj: include/std_lib.h
+
