@@ -37,14 +37,14 @@ int UnglyNumberNo::nthUglynumber(int n)
     auto size = lib.size();
     while (size < n)
     {
-        auto it = find_if(tmpResult.begin(), tmpResult.end(), [&](int temp) -> bool{
-            return temp > *(lib.rbegin());
-        });
-        long tempNum = *it;
+       // auto it = find_if(tmpResult.begin(), tmpResult.end(), [&](int temp) -> bool{
+        //    return temp > *(lib.rbegin());
+        //});
+        //long tempNum = *it;
+        long tempNum = *tmpResult.upper_bound(*(lib.rbegin()));
         lib.insert(static_cast<int>(tempNum));
-        int array2[] = {tempNum * 2, tempNum * 3, tempNum * 5};
+        int array2[3] = {tempNum * 2, tempNum * 3, tempNum * 5};
         tmpResult.insert(array2, array2 + 3);
-        std::cout << "number:" << *it << "last:" << *(lib.rbegin()) << std::endl;
         size = lib.size();
     }
     auto first = lib.begin();
