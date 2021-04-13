@@ -13,6 +13,8 @@ iostream
 -
 set
 -
+algorithm
+-
 
 include/UnglyNumber.h
 std_lib.h
