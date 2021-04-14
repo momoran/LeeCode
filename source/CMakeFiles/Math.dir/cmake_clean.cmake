@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Math.dir/HammingWeight.cpp.obj"
+  "CMakeFiles/Math.dir/IntReverse.cpp.obj"
   "CMakeFiles/Math.dir/MatchAdd.cpp.obj"
   "CMakeFiles/Math.dir/SubArray.cpp.obj"
   "CMakeFiles/Math.dir/UnglyNumber.cpp.obj"

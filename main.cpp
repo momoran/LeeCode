@@ -7,7 +7,7 @@ int main()
         {FAILURE, "the result is faiure"},
         {INVALID, "please init result"},
     };
-    std::unique_ptr<StdLibBase> ptr(new UnglyNumberNo());
+    std::unique_ptr<StdLibBase> ptr(new IntReverse());
     auto it = output.find(ptr->execute());
     if (it != output.end()) {
         std::cout << it->second << std::endl;

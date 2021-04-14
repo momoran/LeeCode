@@ -35,6 +35,8 @@ UnglyNumber.h
 include/UnglyNumber.h
 UnglyNumberNo.h
 include/UnglyNumberNo.h
+IntReverse.h
+include/IntReverse.h
 
 include/HammingWeight.h
 std_lib.h
@@ -43,6 +45,12 @@ operateLib.h
 include/operateLib.h
 stdint.h
 -
+
+include/IntReverse.h
+std_lib.h
+include/std_lib.h
+operateLib.h
+include/operateLib.h
 
 include/MatchAdd.h
 std_lib.h

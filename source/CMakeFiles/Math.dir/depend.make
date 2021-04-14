@@ -6,6 +6,11 @@ source/CMakeFiles/Math.dir/HammingWeight.cpp.obj: include/HammingWeight.h
 source/CMakeFiles/Math.dir/HammingWeight.cpp.obj: include/operateLib.h
 source/CMakeFiles/Math.dir/HammingWeight.cpp.obj: include/std_lib.h
 
+source/CMakeFiles/Math.dir/IntReverse.cpp.obj: source/IntReverse.cpp
+source/CMakeFiles/Math.dir/IntReverse.cpp.obj: include/IntReverse.h
+source/CMakeFiles/Math.dir/IntReverse.cpp.obj: include/operateLib.h
+source/CMakeFiles/Math.dir/IntReverse.cpp.obj: include/std_lib.h
+
 source/CMakeFiles/Math.dir/MatchAdd.cpp.obj: source/MatchAdd.cpp
 source/CMakeFiles/Math.dir/MatchAdd.cpp.obj: include/MatchAdd.h
 source/CMakeFiles/Math.dir/MatchAdd.cpp.obj: include/operateLib.h

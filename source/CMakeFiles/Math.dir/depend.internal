@@ -6,6 +6,11 @@ source/CMakeFiles/Math.dir/HammingWeight.cpp.obj
  include/HammingWeight.h
  include/operateLib.h
  include/std_lib.h
+source/CMakeFiles/Math.dir/IntReverse.cpp.obj
+ D:/Documents/programming/codeSet/LeeCode/LeeCode/source/IntReverse.cpp
+ include/IntReverse.h
+ include/operateLib.h
+ include/std_lib.h
 source/CMakeFiles/Math.dir/MatchAdd.cpp.obj
  D:/Documents/programming/codeSet/LeeCode/LeeCode/source/MatchAdd.cpp
  include/MatchAdd.h

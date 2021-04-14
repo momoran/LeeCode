@@ -6,33 +6,23 @@
 
 #IncludeRegexTransform: 
 
-D:/Documents/programming/codeSet/LeeCode/LeeCode/source/UnglyNumberNo.cpp
-UnglyNumberNo.h
-D:/Documents/programming/codeSet/LeeCode/LeeCode/source/UnglyNumberNo.h
+D:/Documents/programming/codeSet/LeeCode/LeeCode/source/IntReverse.cpp
+IntReverse.h
+D:/Documents/programming/codeSet/LeeCode/LeeCode/source/IntReverse.h
+vector
+-
+cmath
+-
 iostream
 -
-set
--
-algorithm
+limits.h
 -
 
-include/UnglyNumber.h
+include/IntReverse.h
 std_lib.h
 include/std_lib.h
 operateLib.h
 include/operateLib.h
-stdint.h
--
-
-include/UnglyNumberNo.h
-std_lib.h
-include/std_lib.h
-operateLib.h
-include/operateLib.h
-stdint.h
--
-UnglyNumber.h
-include/UnglyNumber.h
 
 include/operateLib.h
 stdint.h

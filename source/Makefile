@@ -170,6 +170,33 @@ HammingWeight.cpp.s:
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/HammingWeight.cpp.s
 .PHONY : HammingWeight.cpp.s
 
+IntReverse.obj: IntReverse.cpp.obj
+
+.PHONY : IntReverse.obj
+
+# target to build an object file
+IntReverse.cpp.obj:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/IntReverse.cpp.obj
+.PHONY : IntReverse.cpp.obj
+
+IntReverse.i: IntReverse.cpp.i
+
+.PHONY : IntReverse.i
+
+# target to preprocess a source file
+IntReverse.cpp.i:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/IntReverse.cpp.i
+.PHONY : IntReverse.cpp.i
+
+IntReverse.s: IntReverse.cpp.s
+
+.PHONY : IntReverse.s
+
+# target to generate assembly for a file
+IntReverse.cpp.s:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/IntReverse.cpp.s
+.PHONY : IntReverse.cpp.s
+
 MatchAdd.obj: MatchAdd.cpp.obj
 
 .PHONY : MatchAdd.obj
@@ -290,6 +317,9 @@ help:
 	@echo ... HammingWeight.obj
 	@echo ... HammingWeight.i
 	@echo ... HammingWeight.s
+	@echo ... IntReverse.obj
+	@echo ... IntReverse.i
+	@echo ... IntReverse.s
 	@echo ... MatchAdd.obj
 	@echo ... MatchAdd.i
 	@echo ... MatchAdd.s

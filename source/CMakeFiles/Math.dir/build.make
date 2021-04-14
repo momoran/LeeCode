@@ -89,10 +89,24 @@ source/CMakeFiles/Math.dir/HammingWeight.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Math.dir/HammingWeight.cpp.s"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Documents\programming\codeSet\LeeCode\LeeCode\source\HammingWeight.cpp -o CMakeFiles\Math.dir\HammingWeight.cpp.s
 
+source/CMakeFiles/Math.dir/IntReverse.cpp.obj: source/CMakeFiles/Math.dir/flags.make
+source/CMakeFiles/Math.dir/IntReverse.cpp.obj: source/CMakeFiles/Math.dir/includes_CXX.rsp
+source/CMakeFiles/Math.dir/IntReverse.cpp.obj: source/IntReverse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object source/CMakeFiles/Math.dir/IntReverse.cpp.obj"
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Math.dir\IntReverse.cpp.obj -c D:\Documents\programming\codeSet\LeeCode\LeeCode\source\IntReverse.cpp
+
+source/CMakeFiles/Math.dir/IntReverse.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Math.dir/IntReverse.cpp.i"
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Documents\programming\codeSet\LeeCode\LeeCode\source\IntReverse.cpp > CMakeFiles\Math.dir\IntReverse.cpp.i
+
+source/CMakeFiles/Math.dir/IntReverse.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Math.dir/IntReverse.cpp.s"
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Documents\programming\codeSet\LeeCode\LeeCode\source\IntReverse.cpp -o CMakeFiles\Math.dir\IntReverse.cpp.s
+
 source/CMakeFiles/Math.dir/MatchAdd.cpp.obj: source/CMakeFiles/Math.dir/flags.make
 source/CMakeFiles/Math.dir/MatchAdd.cpp.obj: source/CMakeFiles/Math.dir/includes_CXX.rsp
 source/CMakeFiles/Math.dir/MatchAdd.cpp.obj: source/MatchAdd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object source/CMakeFiles/Math.dir/MatchAdd.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object source/CMakeFiles/Math.dir/MatchAdd.cpp.obj"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Math.dir\MatchAdd.cpp.obj -c D:\Documents\programming\codeSet\LeeCode\LeeCode\source\MatchAdd.cpp
 
 source/CMakeFiles/Math.dir/MatchAdd.cpp.i: cmake_force
@@ -106,7 +120,7 @@ source/CMakeFiles/Math.dir/MatchAdd.cpp.s: cmake_force
 source/CMakeFiles/Math.dir/SubArray.cpp.obj: source/CMakeFiles/Math.dir/flags.make
 source/CMakeFiles/Math.dir/SubArray.cpp.obj: source/CMakeFiles/Math.dir/includes_CXX.rsp
 source/CMakeFiles/Math.dir/SubArray.cpp.obj: source/SubArray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object source/CMakeFiles/Math.dir/SubArray.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object source/CMakeFiles/Math.dir/SubArray.cpp.obj"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Math.dir\SubArray.cpp.obj -c D:\Documents\programming\codeSet\LeeCode\LeeCode\source\SubArray.cpp
 
 source/CMakeFiles/Math.dir/SubArray.cpp.i: cmake_force
@@ -120,7 +134,7 @@ source/CMakeFiles/Math.dir/SubArray.cpp.s: cmake_force
 source/CMakeFiles/Math.dir/UnglyNumber.cpp.obj: source/CMakeFiles/Math.dir/flags.make
 source/CMakeFiles/Math.dir/UnglyNumber.cpp.obj: source/CMakeFiles/Math.dir/includes_CXX.rsp
 source/CMakeFiles/Math.dir/UnglyNumber.cpp.obj: source/UnglyNumber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object source/CMakeFiles/Math.dir/UnglyNumber.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object source/CMakeFiles/Math.dir/UnglyNumber.cpp.obj"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Math.dir\UnglyNumber.cpp.obj -c D:\Documents\programming\codeSet\LeeCode\LeeCode\source\UnglyNumber.cpp
 
 source/CMakeFiles/Math.dir/UnglyNumber.cpp.i: cmake_force
@@ -134,7 +148,7 @@ source/CMakeFiles/Math.dir/UnglyNumber.cpp.s: cmake_force
 source/CMakeFiles/Math.dir/UnglyNumberNo.cpp.obj: source/CMakeFiles/Math.dir/flags.make
 source/CMakeFiles/Math.dir/UnglyNumberNo.cpp.obj: source/CMakeFiles/Math.dir/includes_CXX.rsp
 source/CMakeFiles/Math.dir/UnglyNumberNo.cpp.obj: source/UnglyNumberNo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object source/CMakeFiles/Math.dir/UnglyNumberNo.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object source/CMakeFiles/Math.dir/UnglyNumberNo.cpp.obj"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Math.dir\UnglyNumberNo.cpp.obj -c D:\Documents\programming\codeSet\LeeCode\LeeCode\source\UnglyNumberNo.cpp
 
 source/CMakeFiles/Math.dir/UnglyNumberNo.cpp.i: cmake_force
@@ -148,6 +162,7 @@ source/CMakeFiles/Math.dir/UnglyNumberNo.cpp.s: cmake_force
 # Object files for target Math
 Math_OBJECTS = \
 "CMakeFiles/Math.dir/HammingWeight.cpp.obj" \
+"CMakeFiles/Math.dir/IntReverse.cpp.obj" \
 "CMakeFiles/Math.dir/MatchAdd.cpp.obj" \
 "CMakeFiles/Math.dir/SubArray.cpp.obj" \
 "CMakeFiles/Math.dir/UnglyNumber.cpp.obj" \
@@ -157,13 +172,14 @@ Math_OBJECTS = \
 Math_EXTERNAL_OBJECTS =
 
 source/libMath.a: source/CMakeFiles/Math.dir/HammingWeight.cpp.obj
+source/libMath.a: source/CMakeFiles/Math.dir/IntReverse.cpp.obj
 source/libMath.a: source/CMakeFiles/Math.dir/MatchAdd.cpp.obj
 source/libMath.a: source/CMakeFiles/Math.dir/SubArray.cpp.obj
 source/libMath.a: source/CMakeFiles/Math.dir/UnglyNumber.cpp.obj
 source/libMath.a: source/CMakeFiles/Math.dir/UnglyNumberNo.cpp.obj
 source/libMath.a: source/CMakeFiles/Math.dir/build.make
 source/libMath.a: source/CMakeFiles/Math.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libMath.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libMath.a"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source && $(CMAKE_COMMAND) -P CMakeFiles\Math.dir\cmake_clean_target.cmake
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Math.dir\link.txt --verbose=$(VERBOSE)
 
