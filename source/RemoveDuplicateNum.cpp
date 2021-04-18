@@ -12,8 +12,7 @@ WORD RemoveDuplicateNum::execute()
 int RemoveDuplicateNum::removeDuplicates(std::vector<int>& nums)
 {
     auto fisrt = nums.begin();
-    auto last = nums.end();
-    while(fisrt != last) {
+    while(fisrt != nums.end()) {
         auto it = std::find_if(fisrt, nums.end(), [&](int value) ->bool{
             return (value != *fisrt);
         });
@@ -22,8 +21,6 @@ int RemoveDuplicateNum::removeDuplicates(std::vector<int>& nums)
         } else {
             fisrt++;
         }
-        
-        last = nums.end();
     }
     return nums.size();
 }
