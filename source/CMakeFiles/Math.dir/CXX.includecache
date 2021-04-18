@@ -6,21 +6,15 @@
 
 #IncludeRegexTransform: 
 
-D:/Documents/programming/codeSet/LeeCode/LeeCode/source/DuplicateNum.cpp
-DuplicateNum.h
-D:/Documents/programming/codeSet/LeeCode/LeeCode/source/DuplicateNum.h
+D:/Documents/programming/codeSet/LeeCode/LeeCode/source/RemoveDuplicateNum.cpp
+RemoveDuplicateNum.h
+D:/Documents/programming/codeSet/LeeCode/LeeCode/source/RemoveDuplicateNum.h
 iostream
--
-set
 -
 algorithm
 -
-cmath
--
-limits.h
--
 
-include/DuplicateNum.h
+include/RemoveDuplicateNum.h
 std_lib.h
 include/std_lib.h
 operateLib.h

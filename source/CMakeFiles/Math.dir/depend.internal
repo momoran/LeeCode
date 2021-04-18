@@ -21,6 +21,11 @@ source/CMakeFiles/Math.dir/MatchAdd.cpp.obj
  include/MatchAdd.h
  include/operateLib.h
  include/std_lib.h
+source/CMakeFiles/Math.dir/RemoveDuplicateNum.cpp.obj
+ D:/Documents/programming/codeSet/LeeCode/LeeCode/source/RemoveDuplicateNum.cpp
+ include/RemoveDuplicateNum.h
+ include/operateLib.h
+ include/std_lib.h
 source/CMakeFiles/Math.dir/SubArray.cpp.obj
  D:/Documents/programming/codeSet/LeeCode/LeeCode/source/SubArray.cpp
  include/SubArray.h

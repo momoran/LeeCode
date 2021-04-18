@@ -251,6 +251,33 @@ MatchAdd.cpp.s:
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/MatchAdd.cpp.s
 .PHONY : MatchAdd.cpp.s
 
+RemoveDuplicateNum.obj: RemoveDuplicateNum.cpp.obj
+
+.PHONY : RemoveDuplicateNum.obj
+
+# target to build an object file
+RemoveDuplicateNum.cpp.obj:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/RemoveDuplicateNum.cpp.obj
+.PHONY : RemoveDuplicateNum.cpp.obj
+
+RemoveDuplicateNum.i: RemoveDuplicateNum.cpp.i
+
+.PHONY : RemoveDuplicateNum.i
+
+# target to preprocess a source file
+RemoveDuplicateNum.cpp.i:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/RemoveDuplicateNum.cpp.i
+.PHONY : RemoveDuplicateNum.cpp.i
+
+RemoveDuplicateNum.s: RemoveDuplicateNum.cpp.s
+
+.PHONY : RemoveDuplicateNum.s
+
+# target to generate assembly for a file
+RemoveDuplicateNum.cpp.s:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/RemoveDuplicateNum.cpp.s
+.PHONY : RemoveDuplicateNum.cpp.s
+
 SubArray.obj: SubArray.cpp.obj
 
 .PHONY : SubArray.obj
@@ -353,6 +380,9 @@ help:
 	@echo ... MatchAdd.obj
 	@echo ... MatchAdd.i
 	@echo ... MatchAdd.s
+	@echo ... RemoveDuplicateNum.obj
+	@echo ... RemoveDuplicateNum.i
+	@echo ... RemoveDuplicateNum.s
 	@echo ... SubArray.obj
 	@echo ... SubArray.i
 	@echo ... SubArray.s

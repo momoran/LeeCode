@@ -17,3 +17,4 @@
 #include "UnglyNumberNo.h"
 #include "IntReverse.h"
 #include "DuplicateNum.h"
+#include "RemoveDuplicateNum.h"
