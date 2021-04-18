@@ -131,10 +131,24 @@ source/CMakeFiles/Math.dir/MatchAdd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Math.dir/MatchAdd.cpp.s"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Documents\programming\codeSet\LeeCode\LeeCode\source\MatchAdd.cpp -o CMakeFiles\Math.dir\MatchAdd.cpp.s
 
+source/CMakeFiles/Math.dir/RemoveDuplicateNum.cpp.obj: source/CMakeFiles/Math.dir/flags.make
+source/CMakeFiles/Math.dir/RemoveDuplicateNum.cpp.obj: source/CMakeFiles/Math.dir/includes_CXX.rsp
+source/CMakeFiles/Math.dir/RemoveDuplicateNum.cpp.obj: source/RemoveDuplicateNum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object source/CMakeFiles/Math.dir/RemoveDuplicateNum.cpp.obj"
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Math.dir\RemoveDuplicateNum.cpp.obj -c D:\Documents\programming\codeSet\LeeCode\LeeCode\source\RemoveDuplicateNum.cpp
+
+source/CMakeFiles/Math.dir/RemoveDuplicateNum.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Math.dir/RemoveDuplicateNum.cpp.i"
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Documents\programming\codeSet\LeeCode\LeeCode\source\RemoveDuplicateNum.cpp > CMakeFiles\Math.dir\RemoveDuplicateNum.cpp.i
+
+source/CMakeFiles/Math.dir/RemoveDuplicateNum.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Math.dir/RemoveDuplicateNum.cpp.s"
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Documents\programming\codeSet\LeeCode\LeeCode\source\RemoveDuplicateNum.cpp -o CMakeFiles\Math.dir\RemoveDuplicateNum.cpp.s
+
 source/CMakeFiles/Math.dir/SubArray.cpp.obj: source/CMakeFiles/Math.dir/flags.make
 source/CMakeFiles/Math.dir/SubArray.cpp.obj: source/CMakeFiles/Math.dir/includes_CXX.rsp
 source/CMakeFiles/Math.dir/SubArray.cpp.obj: source/SubArray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object source/CMakeFiles/Math.dir/SubArray.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object source/CMakeFiles/Math.dir/SubArray.cpp.obj"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Math.dir\SubArray.cpp.obj -c D:\Documents\programming\codeSet\LeeCode\LeeCode\source\SubArray.cpp
 
 source/CMakeFiles/Math.dir/SubArray.cpp.i: cmake_force
@@ -148,7 +162,7 @@ source/CMakeFiles/Math.dir/SubArray.cpp.s: cmake_force
 source/CMakeFiles/Math.dir/UnglyNumber.cpp.obj: source/CMakeFiles/Math.dir/flags.make
 source/CMakeFiles/Math.dir/UnglyNumber.cpp.obj: source/CMakeFiles/Math.dir/includes_CXX.rsp
 source/CMakeFiles/Math.dir/UnglyNumber.cpp.obj: source/UnglyNumber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object source/CMakeFiles/Math.dir/UnglyNumber.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object source/CMakeFiles/Math.dir/UnglyNumber.cpp.obj"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Math.dir\UnglyNumber.cpp.obj -c D:\Documents\programming\codeSet\LeeCode\LeeCode\source\UnglyNumber.cpp
 
 source/CMakeFiles/Math.dir/UnglyNumber.cpp.i: cmake_force
@@ -162,7 +176,7 @@ source/CMakeFiles/Math.dir/UnglyNumber.cpp.s: cmake_force
 source/CMakeFiles/Math.dir/UnglyNumberNo.cpp.obj: source/CMakeFiles/Math.dir/flags.make
 source/CMakeFiles/Math.dir/UnglyNumberNo.cpp.obj: source/CMakeFiles/Math.dir/includes_CXX.rsp
 source/CMakeFiles/Math.dir/UnglyNumberNo.cpp.obj: source/UnglyNumberNo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object source/CMakeFiles/Math.dir/UnglyNumberNo.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object source/CMakeFiles/Math.dir/UnglyNumberNo.cpp.obj"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Math.dir\UnglyNumberNo.cpp.obj -c D:\Documents\programming\codeSet\LeeCode\LeeCode\source\UnglyNumberNo.cpp
 
 source/CMakeFiles/Math.dir/UnglyNumberNo.cpp.i: cmake_force
@@ -179,6 +193,7 @@ Math_OBJECTS = \
 "CMakeFiles/Math.dir/HammingWeight.cpp.obj" \
 "CMakeFiles/Math.dir/IntReverse.cpp.obj" \
 "CMakeFiles/Math.dir/MatchAdd.cpp.obj" \
+"CMakeFiles/Math.dir/RemoveDuplicateNum.cpp.obj" \
 "CMakeFiles/Math.dir/SubArray.cpp.obj" \
 "CMakeFiles/Math.dir/UnglyNumber.cpp.obj" \
 "CMakeFiles/Math.dir/UnglyNumberNo.cpp.obj"
@@ -190,12 +205,13 @@ source/libMath.a: source/CMakeFiles/Math.dir/DuplicateNum.cpp.obj
 source/libMath.a: source/CMakeFiles/Math.dir/HammingWeight.cpp.obj
 source/libMath.a: source/CMakeFiles/Math.dir/IntReverse.cpp.obj
 source/libMath.a: source/CMakeFiles/Math.dir/MatchAdd.cpp.obj
+source/libMath.a: source/CMakeFiles/Math.dir/RemoveDuplicateNum.cpp.obj
 source/libMath.a: source/CMakeFiles/Math.dir/SubArray.cpp.obj
 source/libMath.a: source/CMakeFiles/Math.dir/UnglyNumber.cpp.obj
 source/libMath.a: source/CMakeFiles/Math.dir/UnglyNumberNo.cpp.obj
 source/libMath.a: source/CMakeFiles/Math.dir/build.make
 source/libMath.a: source/CMakeFiles/Math.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libMath.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libMath.a"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source && $(CMAKE_COMMAND) -P CMakeFiles\Math.dir\cmake_clean_target.cmake
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Math.dir\link.txt --verbose=$(VERBOSE)
 

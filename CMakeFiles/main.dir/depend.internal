@@ -8,6 +8,7 @@ CMakeFiles/main.dir/main.cpp.obj
  include/HammingWeight.h
  include/IntReverse.h
  include/MatchAdd.h
+ include/RemoveDuplicateNum.h
  include/SubArray.h
  include/UnglyNumber.h
  include/UnglyNumberNo.h

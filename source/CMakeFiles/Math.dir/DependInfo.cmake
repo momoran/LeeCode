@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/HammingWeight.cpp" "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/CMakeFiles/Math.dir/HammingWeight.cpp.obj"
   "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/IntReverse.cpp" "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/CMakeFiles/Math.dir/IntReverse.cpp.obj"
   "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/MatchAdd.cpp" "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/CMakeFiles/Math.dir/MatchAdd.cpp.obj"
+  "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/RemoveDuplicateNum.cpp" "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/CMakeFiles/Math.dir/RemoveDuplicateNum.cpp.obj"
   "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/SubArray.cpp" "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/CMakeFiles/Math.dir/SubArray.cpp.obj"
   "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/UnglyNumber.cpp" "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/CMakeFiles/Math.dir/UnglyNumber.cpp.obj"
   "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/UnglyNumberNo.cpp" "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/CMakeFiles/Math.dir/UnglyNumberNo.cpp.obj"

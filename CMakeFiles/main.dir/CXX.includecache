@@ -39,6 +39,8 @@ IntReverse.h
 include/IntReverse.h
 DuplicateNum.h
 include/DuplicateNum.h
+RemoveDuplicateNum.h
+include/RemoveDuplicateNum.h
 
 include/DuplicateNum.h
 std_lib.h
@@ -63,6 +65,14 @@ operateLib.h
 include/operateLib.h
 
 include/MatchAdd.h
+std_lib.h
+include/std_lib.h
+operateLib.h
+include/operateLib.h
+vector
+-
+
+include/RemoveDuplicateNum.h
 std_lib.h
 include/std_lib.h
 operateLib.h

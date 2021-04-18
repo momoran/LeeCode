@@ -7,6 +7,7 @@ CMakeFiles/main.dir/main.cpp.obj: include/DuplicateNum.h
 CMakeFiles/main.dir/main.cpp.obj: include/HammingWeight.h
 CMakeFiles/main.dir/main.cpp.obj: include/IntReverse.h
 CMakeFiles/main.dir/main.cpp.obj: include/MatchAdd.h
+CMakeFiles/main.dir/main.cpp.obj: include/RemoveDuplicateNum.h
 CMakeFiles/main.dir/main.cpp.obj: include/SubArray.h
 CMakeFiles/main.dir/main.cpp.obj: include/UnglyNumber.h
 CMakeFiles/main.dir/main.cpp.obj: include/UnglyNumberNo.h
