@@ -37,6 +37,16 @@ UnglyNumberNo.h
 include/UnglyNumberNo.h
 IntReverse.h
 include/IntReverse.h
+DuplicateNum.h
+include/DuplicateNum.h
+
+include/DuplicateNum.h
+std_lib.h
+include/std_lib.h
+operateLib.h
+include/operateLib.h
+vector
+-
 
 include/HammingWeight.h
 std_lib.h

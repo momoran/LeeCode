@@ -143,6 +143,33 @@ Math/fast:
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/build
 .PHONY : Math/fast
 
+DuplicateNum.obj: DuplicateNum.cpp.obj
+
+.PHONY : DuplicateNum.obj
+
+# target to build an object file
+DuplicateNum.cpp.obj:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/DuplicateNum.cpp.obj
+.PHONY : DuplicateNum.cpp.obj
+
+DuplicateNum.i: DuplicateNum.cpp.i
+
+.PHONY : DuplicateNum.i
+
+# target to preprocess a source file
+DuplicateNum.cpp.i:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/DuplicateNum.cpp.i
+.PHONY : DuplicateNum.cpp.i
+
+DuplicateNum.s: DuplicateNum.cpp.s
+
+.PHONY : DuplicateNum.s
+
+# target to generate assembly for a file
+DuplicateNum.cpp.s:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/DuplicateNum.cpp.s
+.PHONY : DuplicateNum.cpp.s
+
 HammingWeight.obj: HammingWeight.cpp.obj
 
 .PHONY : HammingWeight.obj
@@ -314,6 +341,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Math
+	@echo ... DuplicateNum.obj
+	@echo ... DuplicateNum.i
+	@echo ... DuplicateNum.s
 	@echo ... HammingWeight.obj
 	@echo ... HammingWeight.i
 	@echo ... HammingWeight.s

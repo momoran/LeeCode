@@ -6,23 +6,27 @@
 
 #IncludeRegexTransform: 
 
-D:/Documents/programming/codeSet/LeeCode/LeeCode/source/IntReverse.cpp
-IntReverse.h
-D:/Documents/programming/codeSet/LeeCode/LeeCode/source/IntReverse.h
-vector
+D:/Documents/programming/codeSet/LeeCode/LeeCode/source/DuplicateNum.cpp
+DuplicateNum.h
+D:/Documents/programming/codeSet/LeeCode/LeeCode/source/DuplicateNum.h
+iostream
+-
+set
+-
+algorithm
 -
 cmath
--
-iostream
 -
 limits.h
 -
 
-include/IntReverse.h
+include/DuplicateNum.h
 std_lib.h
 include/std_lib.h
 operateLib.h
 include/operateLib.h
+vector
+-
 
 include/operateLib.h
 stdint.h

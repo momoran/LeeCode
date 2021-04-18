@@ -4,6 +4,7 @@
 CMakeFiles/main.dir/main.cpp.obj
  D:/Documents/programming/codeSet/LeeCode/LeeCode/main.cpp
  include/CommonInterferce.h
+ include/DuplicateNum.h
  include/HammingWeight.h
  include/IntReverse.h
  include/MatchAdd.h
