@@ -6,20 +6,18 @@
 
 #IncludeRegexTransform: 
 
-D:/Documents/programming/codeSet/LeeCode/LeeCode/source/RemoveDuplicateNum.cpp
-RemoveDuplicateNum.h
-D:/Documents/programming/codeSet/LeeCode/LeeCode/source/RemoveDuplicateNum.h
-iostream
--
-algorithm
--
+D:/Documents/programming/codeSet/LeeCode/LeeCode/source/StringOvrride.cpp
+StringOvrride.h
+D:/Documents/programming/codeSet/LeeCode/LeeCode/source/StringOvrride.h
 
-include/RemoveDuplicateNum.h
+include/StringOvrride.h
 std_lib.h
 include/std_lib.h
 operateLib.h
 include/operateLib.h
 vector
+-
+string
 -
 
 include/operateLib.h

@@ -26,6 +26,11 @@ source/CMakeFiles/Math.dir/RemoveDuplicateNum.cpp.obj: include/RemoveDuplicateNu
 source/CMakeFiles/Math.dir/RemoveDuplicateNum.cpp.obj: include/operateLib.h
 source/CMakeFiles/Math.dir/RemoveDuplicateNum.cpp.obj: include/std_lib.h
 
+source/CMakeFiles/Math.dir/StringOvrride.cpp.obj: source/StringOvrride.cpp
+source/CMakeFiles/Math.dir/StringOvrride.cpp.obj: include/StringOvrride.h
+source/CMakeFiles/Math.dir/StringOvrride.cpp.obj: include/operateLib.h
+source/CMakeFiles/Math.dir/StringOvrride.cpp.obj: include/std_lib.h
+
 source/CMakeFiles/Math.dir/SubArray.cpp.obj: source/SubArray.cpp
 source/CMakeFiles/Math.dir/SubArray.cpp.obj: include/SubArray.h
 source/CMakeFiles/Math.dir/SubArray.cpp.obj: include/operateLib.h

@@ -7,7 +7,7 @@ int main()
         {FAILURE, "the result is faiure"},
         {INVALID, "please init result"},
     };
-    std::unique_ptr<StdLibBase> ptr(new RemoveDuplicateNum());
+    std::unique_ptr<StdLibBase> ptr(new StringOvrride());
     auto it = output.find(ptr->execute());
     if (it != output.end()) {
         std::cout << it->second << std::endl;

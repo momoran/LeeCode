@@ -41,6 +41,8 @@ DuplicateNum.h
 include/DuplicateNum.h
 RemoveDuplicateNum.h
 include/RemoveDuplicateNum.h
+StringOvrride.h
+include/StringOvrride.h
 
 include/DuplicateNum.h
 std_lib.h
@@ -78,6 +80,16 @@ include/std_lib.h
 operateLib.h
 include/operateLib.h
 vector
+-
+
+include/StringOvrride.h
+std_lib.h
+include/std_lib.h
+operateLib.h
+include/operateLib.h
+vector
+-
+string
 -
 
 include/SubArray.h

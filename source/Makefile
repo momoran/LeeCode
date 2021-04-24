@@ -278,6 +278,33 @@ RemoveDuplicateNum.cpp.s:
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/RemoveDuplicateNum.cpp.s
 .PHONY : RemoveDuplicateNum.cpp.s
 
+StringOvrride.obj: StringOvrride.cpp.obj
+
+.PHONY : StringOvrride.obj
+
+# target to build an object file
+StringOvrride.cpp.obj:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/StringOvrride.cpp.obj
+.PHONY : StringOvrride.cpp.obj
+
+StringOvrride.i: StringOvrride.cpp.i
+
+.PHONY : StringOvrride.i
+
+# target to preprocess a source file
+StringOvrride.cpp.i:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/StringOvrride.cpp.i
+.PHONY : StringOvrride.cpp.i
+
+StringOvrride.s: StringOvrride.cpp.s
+
+.PHONY : StringOvrride.s
+
+# target to generate assembly for a file
+StringOvrride.cpp.s:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/StringOvrride.cpp.s
+.PHONY : StringOvrride.cpp.s
+
 SubArray.obj: SubArray.cpp.obj
 
 .PHONY : SubArray.obj
@@ -383,6 +410,9 @@ help:
 	@echo ... RemoveDuplicateNum.obj
 	@echo ... RemoveDuplicateNum.i
 	@echo ... RemoveDuplicateNum.s
+	@echo ... StringOvrride.obj
+	@echo ... StringOvrride.i
+	@echo ... StringOvrride.s
 	@echo ... SubArray.obj
 	@echo ... SubArray.i
 	@echo ... SubArray.s
