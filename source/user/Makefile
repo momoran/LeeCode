@@ -170,6 +170,33 @@ DuplicateNum.cpp.s:
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\user\CMakeFiles\self.dir\build.make source/user/CMakeFiles/self.dir/DuplicateNum.cpp.s
 .PHONY : DuplicateNum.cpp.s
 
+EmployeeImporance.obj: EmployeeImporance.cpp.obj
+
+.PHONY : EmployeeImporance.obj
+
+# target to build an object file
+EmployeeImporance.cpp.obj:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\user\CMakeFiles\self.dir\build.make source/user/CMakeFiles/self.dir/EmployeeImporance.cpp.obj
+.PHONY : EmployeeImporance.cpp.obj
+
+EmployeeImporance.i: EmployeeImporance.cpp.i
+
+.PHONY : EmployeeImporance.i
+
+# target to preprocess a source file
+EmployeeImporance.cpp.i:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\user\CMakeFiles\self.dir\build.make source/user/CMakeFiles/self.dir/EmployeeImporance.cpp.i
+.PHONY : EmployeeImporance.cpp.i
+
+EmployeeImporance.s: EmployeeImporance.cpp.s
+
+.PHONY : EmployeeImporance.s
+
+# target to generate assembly for a file
+EmployeeImporance.cpp.s:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\user\CMakeFiles\self.dir\build.make source/user/CMakeFiles/self.dir/EmployeeImporance.cpp.s
+.PHONY : EmployeeImporance.cpp.s
+
 HammingWeight.obj: HammingWeight.cpp.obj
 
 .PHONY : HammingWeight.obj
@@ -425,6 +452,9 @@ help:
 	@echo ... DuplicateNum.obj
 	@echo ... DuplicateNum.i
 	@echo ... DuplicateNum.s
+	@echo ... EmployeeImporance.obj
+	@echo ... EmployeeImporance.i
+	@echo ... EmployeeImporance.s
 	@echo ... HammingWeight.obj
 	@echo ... HammingWeight.i
 	@echo ... HammingWeight.s

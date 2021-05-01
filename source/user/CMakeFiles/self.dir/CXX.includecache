@@ -6,52 +6,18 @@
 
 #IncludeRegexTransform: 
 
-D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/XMLoad.cpp
-XMLoad.h
-D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/XMLoad.h
+D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/EmployeeImporance.cpp
+EmployeeImporance.h
+D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/EmployeeImporance.h
 iostream
 -
 
-include/elib/tinyxml2.h
-ctype.h
--
-limits.h
--
-stdio.h
--
-stdlib.h
--
-string.h
--
-stddef.h
--
-cctype
--
-climits
--
-cstdio
--
-cstdlib
--
-cstring
--
-stdint.h
--
-android/log.h
--
-assert.h
--
-
-include/user/XMLoad.h
+include/user/EmployeeImporance.h
 std_lib.h
 include/user/std_lib.h
 operateLib.h
 include/user/operateLib.h
-tinyxml2.h
-include/user/tinyxml2.h
-string
--
-map
+vector
 -
 
 include/user/operateLib.h

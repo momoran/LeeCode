@@ -89,10 +89,24 @@ source/user/CMakeFiles/self.dir/DuplicateNum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/self.dir/DuplicateNum.cpp.s"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user\DuplicateNum.cpp -o CMakeFiles\self.dir\DuplicateNum.cpp.s
 
+source/user/CMakeFiles/self.dir/EmployeeImporance.cpp.obj: source/user/CMakeFiles/self.dir/flags.make
+source/user/CMakeFiles/self.dir/EmployeeImporance.cpp.obj: source/user/CMakeFiles/self.dir/includes_CXX.rsp
+source/user/CMakeFiles/self.dir/EmployeeImporance.cpp.obj: source/user/EmployeeImporance.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object source/user/CMakeFiles/self.dir/EmployeeImporance.cpp.obj"
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\self.dir\EmployeeImporance.cpp.obj -c D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user\EmployeeImporance.cpp
+
+source/user/CMakeFiles/self.dir/EmployeeImporance.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/self.dir/EmployeeImporance.cpp.i"
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user\EmployeeImporance.cpp > CMakeFiles\self.dir\EmployeeImporance.cpp.i
+
+source/user/CMakeFiles/self.dir/EmployeeImporance.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/self.dir/EmployeeImporance.cpp.s"
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user\EmployeeImporance.cpp -o CMakeFiles\self.dir\EmployeeImporance.cpp.s
+
 source/user/CMakeFiles/self.dir/HammingWeight.cpp.obj: source/user/CMakeFiles/self.dir/flags.make
 source/user/CMakeFiles/self.dir/HammingWeight.cpp.obj: source/user/CMakeFiles/self.dir/includes_CXX.rsp
 source/user/CMakeFiles/self.dir/HammingWeight.cpp.obj: source/user/HammingWeight.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object source/user/CMakeFiles/self.dir/HammingWeight.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object source/user/CMakeFiles/self.dir/HammingWeight.cpp.obj"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\self.dir\HammingWeight.cpp.obj -c D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user\HammingWeight.cpp
 
 source/user/CMakeFiles/self.dir/HammingWeight.cpp.i: cmake_force
@@ -106,7 +120,7 @@ source/user/CMakeFiles/self.dir/HammingWeight.cpp.s: cmake_force
 source/user/CMakeFiles/self.dir/IntReverse.cpp.obj: source/user/CMakeFiles/self.dir/flags.make
 source/user/CMakeFiles/self.dir/IntReverse.cpp.obj: source/user/CMakeFiles/self.dir/includes_CXX.rsp
 source/user/CMakeFiles/self.dir/IntReverse.cpp.obj: source/user/IntReverse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object source/user/CMakeFiles/self.dir/IntReverse.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object source/user/CMakeFiles/self.dir/IntReverse.cpp.obj"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\self.dir\IntReverse.cpp.obj -c D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user\IntReverse.cpp
 
 source/user/CMakeFiles/self.dir/IntReverse.cpp.i: cmake_force
@@ -120,7 +134,7 @@ source/user/CMakeFiles/self.dir/IntReverse.cpp.s: cmake_force
 source/user/CMakeFiles/self.dir/MatchAdd.cpp.obj: source/user/CMakeFiles/self.dir/flags.make
 source/user/CMakeFiles/self.dir/MatchAdd.cpp.obj: source/user/CMakeFiles/self.dir/includes_CXX.rsp
 source/user/CMakeFiles/self.dir/MatchAdd.cpp.obj: source/user/MatchAdd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object source/user/CMakeFiles/self.dir/MatchAdd.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object source/user/CMakeFiles/self.dir/MatchAdd.cpp.obj"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\self.dir\MatchAdd.cpp.obj -c D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user\MatchAdd.cpp
 
 source/user/CMakeFiles/self.dir/MatchAdd.cpp.i: cmake_force
@@ -134,7 +148,7 @@ source/user/CMakeFiles/self.dir/MatchAdd.cpp.s: cmake_force
 source/user/CMakeFiles/self.dir/RemoveDuplicateNum.cpp.obj: source/user/CMakeFiles/self.dir/flags.make
 source/user/CMakeFiles/self.dir/RemoveDuplicateNum.cpp.obj: source/user/CMakeFiles/self.dir/includes_CXX.rsp
 source/user/CMakeFiles/self.dir/RemoveDuplicateNum.cpp.obj: source/user/RemoveDuplicateNum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object source/user/CMakeFiles/self.dir/RemoveDuplicateNum.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object source/user/CMakeFiles/self.dir/RemoveDuplicateNum.cpp.obj"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\self.dir\RemoveDuplicateNum.cpp.obj -c D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user\RemoveDuplicateNum.cpp
 
 source/user/CMakeFiles/self.dir/RemoveDuplicateNum.cpp.i: cmake_force
@@ -148,7 +162,7 @@ source/user/CMakeFiles/self.dir/RemoveDuplicateNum.cpp.s: cmake_force
 source/user/CMakeFiles/self.dir/StringOvrride.cpp.obj: source/user/CMakeFiles/self.dir/flags.make
 source/user/CMakeFiles/self.dir/StringOvrride.cpp.obj: source/user/CMakeFiles/self.dir/includes_CXX.rsp
 source/user/CMakeFiles/self.dir/StringOvrride.cpp.obj: source/user/StringOvrride.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object source/user/CMakeFiles/self.dir/StringOvrride.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object source/user/CMakeFiles/self.dir/StringOvrride.cpp.obj"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\self.dir\StringOvrride.cpp.obj -c D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user\StringOvrride.cpp
 
 source/user/CMakeFiles/self.dir/StringOvrride.cpp.i: cmake_force
@@ -162,7 +176,7 @@ source/user/CMakeFiles/self.dir/StringOvrride.cpp.s: cmake_force
 source/user/CMakeFiles/self.dir/SubArray.cpp.obj: source/user/CMakeFiles/self.dir/flags.make
 source/user/CMakeFiles/self.dir/SubArray.cpp.obj: source/user/CMakeFiles/self.dir/includes_CXX.rsp
 source/user/CMakeFiles/self.dir/SubArray.cpp.obj: source/user/SubArray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object source/user/CMakeFiles/self.dir/SubArray.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object source/user/CMakeFiles/self.dir/SubArray.cpp.obj"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\self.dir\SubArray.cpp.obj -c D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user\SubArray.cpp
 
 source/user/CMakeFiles/self.dir/SubArray.cpp.i: cmake_force
@@ -176,7 +190,7 @@ source/user/CMakeFiles/self.dir/SubArray.cpp.s: cmake_force
 source/user/CMakeFiles/self.dir/UnglyNumber.cpp.obj: source/user/CMakeFiles/self.dir/flags.make
 source/user/CMakeFiles/self.dir/UnglyNumber.cpp.obj: source/user/CMakeFiles/self.dir/includes_CXX.rsp
 source/user/CMakeFiles/self.dir/UnglyNumber.cpp.obj: source/user/UnglyNumber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object source/user/CMakeFiles/self.dir/UnglyNumber.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object source/user/CMakeFiles/self.dir/UnglyNumber.cpp.obj"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\self.dir\UnglyNumber.cpp.obj -c D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user\UnglyNumber.cpp
 
 source/user/CMakeFiles/self.dir/UnglyNumber.cpp.i: cmake_force
@@ -190,7 +204,7 @@ source/user/CMakeFiles/self.dir/UnglyNumber.cpp.s: cmake_force
 source/user/CMakeFiles/self.dir/UnglyNumberNo.cpp.obj: source/user/CMakeFiles/self.dir/flags.make
 source/user/CMakeFiles/self.dir/UnglyNumberNo.cpp.obj: source/user/CMakeFiles/self.dir/includes_CXX.rsp
 source/user/CMakeFiles/self.dir/UnglyNumberNo.cpp.obj: source/user/UnglyNumberNo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object source/user/CMakeFiles/self.dir/UnglyNumberNo.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object source/user/CMakeFiles/self.dir/UnglyNumberNo.cpp.obj"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\self.dir\UnglyNumberNo.cpp.obj -c D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user\UnglyNumberNo.cpp
 
 source/user/CMakeFiles/self.dir/UnglyNumberNo.cpp.i: cmake_force
@@ -204,7 +218,7 @@ source/user/CMakeFiles/self.dir/UnglyNumberNo.cpp.s: cmake_force
 source/user/CMakeFiles/self.dir/XMLoad.cpp.obj: source/user/CMakeFiles/self.dir/flags.make
 source/user/CMakeFiles/self.dir/XMLoad.cpp.obj: source/user/CMakeFiles/self.dir/includes_CXX.rsp
 source/user/CMakeFiles/self.dir/XMLoad.cpp.obj: source/user/XMLoad.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object source/user/CMakeFiles/self.dir/XMLoad.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object source/user/CMakeFiles/self.dir/XMLoad.cpp.obj"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\self.dir\XMLoad.cpp.obj -c D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user\XMLoad.cpp
 
 source/user/CMakeFiles/self.dir/XMLoad.cpp.i: cmake_force
@@ -218,6 +232,7 @@ source/user/CMakeFiles/self.dir/XMLoad.cpp.s: cmake_force
 # Object files for target self
 self_OBJECTS = \
 "CMakeFiles/self.dir/DuplicateNum.cpp.obj" \
+"CMakeFiles/self.dir/EmployeeImporance.cpp.obj" \
 "CMakeFiles/self.dir/HammingWeight.cpp.obj" \
 "CMakeFiles/self.dir/IntReverse.cpp.obj" \
 "CMakeFiles/self.dir/MatchAdd.cpp.obj" \
@@ -232,6 +247,7 @@ self_OBJECTS = \
 self_EXTERNAL_OBJECTS =
 
 source/user/libself.a: source/user/CMakeFiles/self.dir/DuplicateNum.cpp.obj
+source/user/libself.a: source/user/CMakeFiles/self.dir/EmployeeImporance.cpp.obj
 source/user/libself.a: source/user/CMakeFiles/self.dir/HammingWeight.cpp.obj
 source/user/libself.a: source/user/CMakeFiles/self.dir/IntReverse.cpp.obj
 source/user/libself.a: source/user/CMakeFiles/self.dir/MatchAdd.cpp.obj
@@ -243,7 +259,7 @@ source/user/libself.a: source/user/CMakeFiles/self.dir/UnglyNumberNo.cpp.obj
 source/user/libself.a: source/user/CMakeFiles/self.dir/XMLoad.cpp.obj
 source/user/libself.a: source/user/CMakeFiles/self.dir/build.make
 source/user/libself.a: source/user/CMakeFiles/self.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libself.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX static library libself.a"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user && $(CMAKE_COMMAND) -P CMakeFiles\self.dir\cmake_clean_target.cmake
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\self.dir\link.txt --verbose=$(VERBOSE)
 

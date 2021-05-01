@@ -6,6 +6,11 @@ source/user/CMakeFiles/self.dir/DuplicateNum.cpp.obj: include/user/DuplicateNum.
 source/user/CMakeFiles/self.dir/DuplicateNum.cpp.obj: include/user/operateLib.h
 source/user/CMakeFiles/self.dir/DuplicateNum.cpp.obj: include/user/std_lib.h
 
+source/user/CMakeFiles/self.dir/EmployeeImporance.cpp.obj: source/user/EmployeeImporance.cpp
+source/user/CMakeFiles/self.dir/EmployeeImporance.cpp.obj: include/user/EmployeeImporance.h
+source/user/CMakeFiles/self.dir/EmployeeImporance.cpp.obj: include/user/operateLib.h
+source/user/CMakeFiles/self.dir/EmployeeImporance.cpp.obj: include/user/std_lib.h
+
 source/user/CMakeFiles/self.dir/HammingWeight.cpp.obj: source/user/HammingWeight.cpp
 source/user/CMakeFiles/self.dir/HammingWeight.cpp.obj: include/user/HammingWeight.h
 source/user/CMakeFiles/self.dir/HammingWeight.cpp.obj: include/user/operateLib.h

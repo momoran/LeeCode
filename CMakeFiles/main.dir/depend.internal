@@ -6,6 +6,7 @@ CMakeFiles/main.dir/main.cpp.obj
  include/elib/tinyxml2.h
  include/user/CommonInterferce.h
  include/user/DuplicateNum.h
+ include/user/EmployeeImporance.h
  include/user/HammingWeight.h
  include/user/IntReverse.h
  include/user/MatchAdd.h

@@ -6,6 +6,11 @@ source/user/CMakeFiles/self.dir/DuplicateNum.cpp.obj
  include/user/DuplicateNum.h
  include/user/operateLib.h
  include/user/std_lib.h
+source/user/CMakeFiles/self.dir/EmployeeImporance.cpp.obj
+ D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/EmployeeImporance.cpp
+ include/user/EmployeeImporance.h
+ include/user/operateLib.h
+ include/user/std_lib.h
 source/user/CMakeFiles/self.dir/HammingWeight.cpp.obj
  D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/HammingWeight.cpp
  include/user/HammingWeight.h
