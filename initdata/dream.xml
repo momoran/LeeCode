@@ -1,9 +1,13 @@
 <?xml version="1.0"?>
 <!DOCTYPE PLAY SYSTEM "play.dtd">
+<root>
+    <city name = "chengdu">
+        <university>UESTC</university>
+        <place>piDu</place>
+    </city>
 
-<FM moudle = "1234" other = "ssds">
-<P1>Text placed in the public domain by Moby Lexical Tools, 1992.</P1>
-<P2>SGML markup by Jon Bosak, 1992-1994.</P2>
-<P3>XML version by Jon Bosak, 1996-1998.</P3>
-<P>This work may be freely copied and distributed worldwide.</P>
-</FM>
+    <city name = "zhejiang">
+        <university>ZJU</university>
+        <place>other</place>
+    </city>
+</root>

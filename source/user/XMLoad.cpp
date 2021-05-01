@@ -28,8 +28,17 @@ WORD xmlLoad::XmlFunTest()
     auto root = GetRootElement();
     WORD errCode = FAILURE;
     if (root != nullptr) {
-        std::cout << root->Attribute("moudle") << std::endl;
-        std::cout << root->FirstChildElement("P2")->GetText() << std::endl;
+        std::cout << root->Value() << std::endl;
+        auto it = rootNode.begin();
+        auto tmp1 = root->FirstChildElement(it->first);
+        while(tmp1 != nullptr) {
+            auto it1 = it->second.begin();
+            while(it1 != it->second.end()) {
+                std::cout << it1->first << ":" <<tmp1->FirstChildElement(it1->first)->GetText() << std::endl;
+                it1++;
+            }
+            tmp1 = tmp1->NextSiblingElement();
+        }
         errCode = SUCESS;
     }
     return errCode;

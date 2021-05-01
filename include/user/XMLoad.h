@@ -7,10 +7,21 @@
 #include <map>
 
 namespace {
+    using NODE_TYPE = std::map<const char *, tinyxml2::XMLElement*>;
+
     std::map<tinyxml2::XMLError, std::string> errString = {
         {tinyxml2::XML_SUCCESS, "XML_SUCCESS"},
         {tinyxml2::XML_NO_ATTRIBUTE, "XML_NO_ATTRIBUTE"},
         {tinyxml2::XML_ERROR_FILE_NOT_FOUND, "XML_ERROR_FILE_NOT_FOUND"}
+    };
+
+    NODE_TYPE secondNode = {
+        {"university", nullptr},
+        {"place", nullptr}
+    };
+
+    std::map<const char*, NODE_TYPE> rootNode = {
+        {"city", secondNode}
     };
 }
 
