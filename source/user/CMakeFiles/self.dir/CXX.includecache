@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/StringOvrride.cpp
+StringOvrride.h
+D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/StringOvrride.h
+
+include/user/StringOvrride.h
+std_lib.h
+include/user/std_lib.h
+operateLib.h
+include/user/operateLib.h
+vector
+-
+string
+-
+
+include/user/operateLib.h
+stdint.h
+-
+
+include/user/std_lib.h
+operateLib.h
+include/user/operateLib.h
+
