@@ -14,5 +14,6 @@ CMakeFiles/main.dir/main.cpp.obj
  include/user/SubArray.h
  include/user/UnglyNumber.h
  include/user/UnglyNumberNo.h
+ include/user/XMLoad.h
  include/user/operateLib.h
  include/user/std_lib.h

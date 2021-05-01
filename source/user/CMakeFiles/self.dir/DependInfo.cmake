@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/SubArray.cpp" "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/CMakeFiles/self.dir/SubArray.cpp.obj"
   "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/UnglyNumber.cpp" "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/CMakeFiles/self.dir/UnglyNumber.cpp.obj"
   "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/UnglyNumberNo.cpp" "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/CMakeFiles/self.dir/UnglyNumberNo.cpp.obj"
+  "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/XMLoad.cpp" "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/CMakeFiles/self.dir/XMLoad.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

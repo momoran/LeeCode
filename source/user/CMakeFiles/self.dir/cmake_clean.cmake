@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/self.dir/SubArray.cpp.obj"
   "CMakeFiles/self.dir/UnglyNumber.cpp.obj"
   "CMakeFiles/self.dir/UnglyNumberNo.cpp.obj"
+  "CMakeFiles/self.dir/XMLoad.cpp.obj"
   "libself.a"
   "libself.pdb"
 )

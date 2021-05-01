@@ -9,8 +9,6 @@
 D:/Documents/programming/codeSet/LeeCode/LeeCode/main.cpp
 CommonInterferce.h
 D:/Documents/programming/codeSet/LeeCode/LeeCode/CommonInterferce.h
-tinyxml2.h
-D:/Documents/programming/codeSet/LeeCode/LeeCode/tinyxml2.h
 
 include/elib/tinyxml2.h
 ctype.h
@@ -75,6 +73,8 @@ RemoveDuplicateNum.h
 include/user/RemoveDuplicateNum.h
 StringOvrride.h
 include/user/StringOvrride.h
+XMLoad.h
+include/user/XMLoad.h
 
 include/user/DuplicateNum.h
 std_lib.h
@@ -149,6 +149,18 @@ stdint.h
 -
 UnglyNumber.h
 include/user/UnglyNumber.h
+
+include/user/XMLoad.h
+std_lib.h
+include/user/std_lib.h
+operateLib.h
+include/user/operateLib.h
+tinyxml2.h
+include/user/tinyxml2.h
+string
+-
+map
+-
 
 include/user/operateLib.h
 stdint.h

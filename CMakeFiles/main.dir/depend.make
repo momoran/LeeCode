@@ -13,6 +13,7 @@ CMakeFiles/main.dir/main.cpp.obj: include/user/StringOvrride.h
 CMakeFiles/main.dir/main.cpp.obj: include/user/SubArray.h
 CMakeFiles/main.dir/main.cpp.obj: include/user/UnglyNumber.h
 CMakeFiles/main.dir/main.cpp.obj: include/user/UnglyNumberNo.h
+CMakeFiles/main.dir/main.cpp.obj: include/user/XMLoad.h
 CMakeFiles/main.dir/main.cpp.obj: include/user/operateLib.h
 CMakeFiles/main.dir/main.cpp.obj: include/user/std_lib.h
 

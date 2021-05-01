@@ -386,6 +386,33 @@ UnglyNumberNo.cpp.s:
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\user\CMakeFiles\self.dir\build.make source/user/CMakeFiles/self.dir/UnglyNumberNo.cpp.s
 .PHONY : UnglyNumberNo.cpp.s
 
+XMLoad.obj: XMLoad.cpp.obj
+
+.PHONY : XMLoad.obj
+
+# target to build an object file
+XMLoad.cpp.obj:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\user\CMakeFiles\self.dir\build.make source/user/CMakeFiles/self.dir/XMLoad.cpp.obj
+.PHONY : XMLoad.cpp.obj
+
+XMLoad.i: XMLoad.cpp.i
+
+.PHONY : XMLoad.i
+
+# target to preprocess a source file
+XMLoad.cpp.i:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\user\CMakeFiles\self.dir\build.make source/user/CMakeFiles/self.dir/XMLoad.cpp.i
+.PHONY : XMLoad.cpp.i
+
+XMLoad.s: XMLoad.cpp.s
+
+.PHONY : XMLoad.s
+
+# target to generate assembly for a file
+XMLoad.cpp.s:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\user\CMakeFiles\self.dir\build.make source/user/CMakeFiles/self.dir/XMLoad.cpp.s
+.PHONY : XMLoad.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -422,6 +449,9 @@ help:
 	@echo ... UnglyNumberNo.obj
 	@echo ... UnglyNumberNo.i
 	@echo ... UnglyNumberNo.s
+	@echo ... XMLoad.obj
+	@echo ... XMLoad.i
+	@echo ... XMLoad.s
 .PHONY : help
 
 

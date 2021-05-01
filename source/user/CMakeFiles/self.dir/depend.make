@@ -47,3 +47,9 @@ source/user/CMakeFiles/self.dir/UnglyNumberNo.cpp.obj: include/user/UnglyNumberN
 source/user/CMakeFiles/self.dir/UnglyNumberNo.cpp.obj: include/user/operateLib.h
 source/user/CMakeFiles/self.dir/UnglyNumberNo.cpp.obj: include/user/std_lib.h
 
+source/user/CMakeFiles/self.dir/XMLoad.cpp.obj: source/user/XMLoad.cpp
+source/user/CMakeFiles/self.dir/XMLoad.cpp.obj: include/elib/tinyxml2.h
+source/user/CMakeFiles/self.dir/XMLoad.cpp.obj: include/user/XMLoad.h
+source/user/CMakeFiles/self.dir/XMLoad.cpp.obj: include/user/operateLib.h
+source/user/CMakeFiles/self.dir/XMLoad.cpp.obj: include/user/std_lib.h
+

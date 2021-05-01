@@ -47,3 +47,9 @@ source/user/CMakeFiles/self.dir/UnglyNumberNo.cpp.obj
  include/user/UnglyNumberNo.h
  include/user/operateLib.h
  include/user/std_lib.h
+source/user/CMakeFiles/self.dir/XMLoad.cpp.obj
+ D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/XMLoad.cpp
+ include/elib/tinyxml2.h
+ include/user/XMLoad.h
+ include/user/operateLib.h
+ include/user/std_lib.h

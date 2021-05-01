@@ -201,6 +201,20 @@ source/user/CMakeFiles/self.dir/UnglyNumberNo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/self.dir/UnglyNumberNo.cpp.s"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user\UnglyNumberNo.cpp -o CMakeFiles\self.dir\UnglyNumberNo.cpp.s
 
+source/user/CMakeFiles/self.dir/XMLoad.cpp.obj: source/user/CMakeFiles/self.dir/flags.make
+source/user/CMakeFiles/self.dir/XMLoad.cpp.obj: source/user/CMakeFiles/self.dir/includes_CXX.rsp
+source/user/CMakeFiles/self.dir/XMLoad.cpp.obj: source/user/XMLoad.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object source/user/CMakeFiles/self.dir/XMLoad.cpp.obj"
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\self.dir\XMLoad.cpp.obj -c D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user\XMLoad.cpp
+
+source/user/CMakeFiles/self.dir/XMLoad.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/self.dir/XMLoad.cpp.i"
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user\XMLoad.cpp > CMakeFiles\self.dir\XMLoad.cpp.i
+
+source/user/CMakeFiles/self.dir/XMLoad.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/self.dir/XMLoad.cpp.s"
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user\XMLoad.cpp -o CMakeFiles\self.dir\XMLoad.cpp.s
+
 # Object files for target self
 self_OBJECTS = \
 "CMakeFiles/self.dir/DuplicateNum.cpp.obj" \
@@ -211,7 +225,8 @@ self_OBJECTS = \
 "CMakeFiles/self.dir/StringOvrride.cpp.obj" \
 "CMakeFiles/self.dir/SubArray.cpp.obj" \
 "CMakeFiles/self.dir/UnglyNumber.cpp.obj" \
-"CMakeFiles/self.dir/UnglyNumberNo.cpp.obj"
+"CMakeFiles/self.dir/UnglyNumberNo.cpp.obj" \
+"CMakeFiles/self.dir/XMLoad.cpp.obj"
 
 # External object files for target self
 self_EXTERNAL_OBJECTS =
@@ -225,9 +240,10 @@ source/user/libself.a: source/user/CMakeFiles/self.dir/StringOvrride.cpp.obj
 source/user/libself.a: source/user/CMakeFiles/self.dir/SubArray.cpp.obj
 source/user/libself.a: source/user/CMakeFiles/self.dir/UnglyNumber.cpp.obj
 source/user/libself.a: source/user/CMakeFiles/self.dir/UnglyNumberNo.cpp.obj
+source/user/libself.a: source/user/CMakeFiles/self.dir/XMLoad.cpp.obj
 source/user/libself.a: source/user/CMakeFiles/self.dir/build.make
 source/user/libself.a: source/user/CMakeFiles/self.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library libself.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libself.a"
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user && $(CMAKE_COMMAND) -P CMakeFiles\self.dir\cmake_clean_target.cmake
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode\source\user && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\self.dir\link.txt --verbose=$(VERBOSE)
 
