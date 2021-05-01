@@ -17,7 +17,8 @@ namespace {
 
     NODE_TYPE secondNode = {
         {"university", nullptr},
-        {"place", nullptr}
+        {"place", nullptr},
+        {"food", nullptr}
     };
 
     std::map<const char*, NODE_TYPE> rootNode = {

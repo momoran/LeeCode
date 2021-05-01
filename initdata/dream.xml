@@ -4,10 +4,12 @@
     <city name = "chengdu">
         <university>UESTC</university>
         <place>piDu</place>
+        <food>Hotpot</food>
     </city>
 
     <city name = "zhejiang">
         <university>ZJU</university>
         <place>other</place>
     </city>
+
 </root>
