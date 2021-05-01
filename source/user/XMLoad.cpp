@@ -33,8 +33,10 @@ WORD xmlLoad::XmlFunTest()
         auto tmp1 = root->FirstChildElement(it->first);
         while(tmp1 != nullptr) {
             auto it1 = it->second.begin();
+            std::cout << "====="<< tmp1->Attribute("name") << "====" << std::endl;
             while(it1 != it->second.end()) {
-                std::cout << it1->first << ":" <<tmp1->FirstChildElement(it1->first)->GetText() << std::endl;
+                std::cout << it1->first << ":" 
+                    <<tmp1->FirstChildElement(it1->first)->GetText() << std::endl;
                 it1++;
             }
             tmp1 = tmp1->NextSiblingElement();
