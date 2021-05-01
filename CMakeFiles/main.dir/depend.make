@@ -10,6 +10,7 @@ CMakeFiles/main.dir/main.cpp.obj: include/user/HammingWeight.h
 CMakeFiles/main.dir/main.cpp.obj: include/user/IntReverse.h
 CMakeFiles/main.dir/main.cpp.obj: include/user/MatchAdd.h
 CMakeFiles/main.dir/main.cpp.obj: include/user/RemoveDuplicateNum.h
+CMakeFiles/main.dir/main.cpp.obj: include/user/SquareNum.h
 CMakeFiles/main.dir/main.cpp.obj: include/user/StringOvrride.h
 CMakeFiles/main.dir/main.cpp.obj: include/user/SubArray.h
 CMakeFiles/main.dir/main.cpp.obj: include/user/UnglyNumber.h

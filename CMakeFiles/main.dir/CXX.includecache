@@ -77,6 +77,8 @@ XMLoad.h
 include/user/XMLoad.h
 EmployeeImporance.h
 include/user/EmployeeImporance.h
+SquareNum.h
+include/user/SquareNum.h
 
 include/user/DuplicateNum.h
 std_lib.h
@@ -123,6 +125,12 @@ operateLib.h
 include/user/operateLib.h
 vector
 -
+
+include/user/SquareNum.h
+std_lib.h
+include/user/std_lib.h
+operateLib.h
+include/user/operateLib.h
 
 include/user/StringOvrride.h
 std_lib.h

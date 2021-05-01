@@ -11,6 +11,7 @@ CMakeFiles/main.dir/main.cpp.obj
  include/user/IntReverse.h
  include/user/MatchAdd.h
  include/user/RemoveDuplicateNum.h
+ include/user/SquareNum.h
  include/user/StringOvrride.h
  include/user/SubArray.h
  include/user/UnglyNumber.h

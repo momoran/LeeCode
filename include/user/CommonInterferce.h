@@ -21,3 +21,4 @@
 #include "StringOvrride.h"
 #include "XMLoad.h"
 #include "EmployeeImporance.h"
+#include "SquareNum.h"

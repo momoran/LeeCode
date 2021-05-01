@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/self.dir/IntReverse.cpp.obj"
   "CMakeFiles/self.dir/MatchAdd.cpp.obj"
   "CMakeFiles/self.dir/RemoveDuplicateNum.cpp.obj"
+  "CMakeFiles/self.dir/SquareNum.cpp.obj"
   "CMakeFiles/self.dir/StringOvrride.cpp.obj"
   "CMakeFiles/self.dir/SubArray.cpp.obj"
   "CMakeFiles/self.dir/UnglyNumber.cpp.obj"

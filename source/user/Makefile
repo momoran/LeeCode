@@ -305,6 +305,33 @@ RemoveDuplicateNum.cpp.s:
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\user\CMakeFiles\self.dir\build.make source/user/CMakeFiles/self.dir/RemoveDuplicateNum.cpp.s
 .PHONY : RemoveDuplicateNum.cpp.s
 
+SquareNum.obj: SquareNum.cpp.obj
+
+.PHONY : SquareNum.obj
+
+# target to build an object file
+SquareNum.cpp.obj:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\user\CMakeFiles\self.dir\build.make source/user/CMakeFiles/self.dir/SquareNum.cpp.obj
+.PHONY : SquareNum.cpp.obj
+
+SquareNum.i: SquareNum.cpp.i
+
+.PHONY : SquareNum.i
+
+# target to preprocess a source file
+SquareNum.cpp.i:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\user\CMakeFiles\self.dir\build.make source/user/CMakeFiles/self.dir/SquareNum.cpp.i
+.PHONY : SquareNum.cpp.i
+
+SquareNum.s: SquareNum.cpp.s
+
+.PHONY : SquareNum.s
+
+# target to generate assembly for a file
+SquareNum.cpp.s:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\user\CMakeFiles\self.dir\build.make source/user/CMakeFiles/self.dir/SquareNum.cpp.s
+.PHONY : SquareNum.cpp.s
+
 StringOvrride.obj: StringOvrride.cpp.obj
 
 .PHONY : StringOvrride.obj
@@ -467,6 +494,9 @@ help:
 	@echo ... RemoveDuplicateNum.obj
 	@echo ... RemoveDuplicateNum.i
 	@echo ... RemoveDuplicateNum.s
+	@echo ... SquareNum.obj
+	@echo ... SquareNum.i
+	@echo ... SquareNum.s
 	@echo ... StringOvrride.obj
 	@echo ... StringOvrride.i
 	@echo ... StringOvrride.s

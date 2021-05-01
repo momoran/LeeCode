@@ -31,6 +31,11 @@ source/user/CMakeFiles/self.dir/RemoveDuplicateNum.cpp.obj: include/user/RemoveD
 source/user/CMakeFiles/self.dir/RemoveDuplicateNum.cpp.obj: include/user/operateLib.h
 source/user/CMakeFiles/self.dir/RemoveDuplicateNum.cpp.obj: include/user/std_lib.h
 
+source/user/CMakeFiles/self.dir/SquareNum.cpp.obj: source/user/SquareNum.cpp
+source/user/CMakeFiles/self.dir/SquareNum.cpp.obj: include/user/SquareNum.h
+source/user/CMakeFiles/self.dir/SquareNum.cpp.obj: include/user/operateLib.h
+source/user/CMakeFiles/self.dir/SquareNum.cpp.obj: include/user/std_lib.h
+
 source/user/CMakeFiles/self.dir/StringOvrride.cpp.obj: source/user/StringOvrride.cpp
 source/user/CMakeFiles/self.dir/StringOvrride.cpp.obj: include/user/StringOvrride.h
 source/user/CMakeFiles/self.dir/StringOvrride.cpp.obj: include/user/operateLib.h

@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/IntReverse.cpp" "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/CMakeFiles/self.dir/IntReverse.cpp.obj"
   "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/MatchAdd.cpp" "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/CMakeFiles/self.dir/MatchAdd.cpp.obj"
   "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/RemoveDuplicateNum.cpp" "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/CMakeFiles/self.dir/RemoveDuplicateNum.cpp.obj"
+  "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/SquareNum.cpp" "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/CMakeFiles/self.dir/SquareNum.cpp.obj"
   "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/StringOvrride.cpp" "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/CMakeFiles/self.dir/StringOvrride.cpp.obj"
   "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/SubArray.cpp" "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/CMakeFiles/self.dir/SubArray.cpp.obj"
   "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/UnglyNumber.cpp" "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/CMakeFiles/self.dir/UnglyNumber.cpp.obj"
