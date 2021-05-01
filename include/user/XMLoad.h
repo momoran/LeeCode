@@ -41,7 +41,7 @@ private:
     WORD XmlFunTest();
 
 private:
-    std::string filePath{"D:/Documents/programming/codeSet/LeeCode/LeeCode/initdata/"};
+    std::string filePath{"D:/Documents/programming/codeSet/LeeCode/LeeCode/data/"};
     tinyxml2::XMLDocument m_file;
     tinyxml2::XMLElement* m_rootElement{nullptr};
     int result;
