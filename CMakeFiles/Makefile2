@@ -91,33 +91,73 @@ clean: source/clean
 # Directory level rules for directory source
 
 # Recursive "all" directory target.
-source/all: source/CMakeFiles/Math.dir/all
+source/all: source/elib/all
+source/all: source/user/all
 
 .PHONY : source/all
 
 # Recursive "preinstall" directory target.
-source/preinstall:
+source/preinstall: source/elib/preinstall
+source/preinstall: source/user/preinstall
 
 .PHONY : source/preinstall
 
 # Recursive "clean" directory target.
-source/clean: source/CMakeFiles/Math.dir/clean
+source/clean: source/elib/clean
+source/clean: source/user/clean
 
 .PHONY : source/clean
+
+#=============================================================================
+# Directory level rules for directory source/elib
+
+# Recursive "all" directory target.
+source/elib/all: source/elib/CMakeFiles/elib.dir/all
+
+.PHONY : source/elib/all
+
+# Recursive "preinstall" directory target.
+source/elib/preinstall:
+
+.PHONY : source/elib/preinstall
+
+# Recursive "clean" directory target.
+source/elib/clean: source/elib/CMakeFiles/elib.dir/clean
+
+.PHONY : source/elib/clean
+
+#=============================================================================
+# Directory level rules for directory source/user
+
+# Recursive "all" directory target.
+source/user/all: source/user/CMakeFiles/self.dir/all
+
+.PHONY : source/user/all
+
+# Recursive "preinstall" directory target.
+source/user/preinstall:
+
+.PHONY : source/user/preinstall
+
+# Recursive "clean" directory target.
+source/user/clean: source/user/CMakeFiles/self.dir/clean
+
+.PHONY : source/user/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all: source/CMakeFiles/Math.dir/all
+CMakeFiles/main.dir/all: source/elib/CMakeFiles/elib.dir/all
+CMakeFiles/main.dir/all: source/user/CMakeFiles/self.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=11,12 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=3,4 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles 0
 .PHONY : CMakeFiles/main.dir/rule
@@ -133,31 +173,58 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 #=============================================================================
-# Target rules for target source/CMakeFiles/Math.dir
+# Target rules for target source/elib/CMakeFiles/elib.dir
 
 # All Build rule for target.
-source/CMakeFiles/Math.dir/all:
-	$(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/depend
-	$(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target Math"
-.PHONY : source/CMakeFiles/Math.dir/all
+source/elib/CMakeFiles/elib.dir/all:
+	$(MAKE) $(MAKESILENT) -f source\elib\CMakeFiles\elib.dir\build.make source/elib/CMakeFiles/elib.dir/depend
+	$(MAKE) $(MAKESILENT) -f source\elib\CMakeFiles\elib.dir\build.make source/elib/CMakeFiles/elib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=1,2 "Built target elib"
+.PHONY : source/elib/CMakeFiles/elib.dir/all
 
 # Build rule for subdir invocation for target.
-source/CMakeFiles/Math.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles 10
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/CMakeFiles/Math.dir/all
+source/elib/CMakeFiles/elib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/elib/CMakeFiles/elib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles 0
-.PHONY : source/CMakeFiles/Math.dir/rule
+.PHONY : source/elib/CMakeFiles/elib.dir/rule
 
 # Convenience name for target.
-Math: source/CMakeFiles/Math.dir/rule
+elib: source/elib/CMakeFiles/elib.dir/rule
 
-.PHONY : Math
+.PHONY : elib
 
 # clean rule for target.
-source/CMakeFiles/Math.dir/clean:
-	$(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/clean
-.PHONY : source/CMakeFiles/Math.dir/clean
+source/elib/CMakeFiles/elib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f source\elib\CMakeFiles\elib.dir\build.make source/elib/CMakeFiles/elib.dir/clean
+.PHONY : source/elib/CMakeFiles/elib.dir/clean
+
+#=============================================================================
+# Target rules for target source/user/CMakeFiles/self.dir
+
+# All Build rule for target.
+source/user/CMakeFiles/self.dir/all:
+	$(MAKE) $(MAKESILENT) -f source\user\CMakeFiles\self.dir\build.make source/user/CMakeFiles/self.dir/depend
+	$(MAKE) $(MAKESILENT) -f source\user\CMakeFiles\self.dir\build.make source/user/CMakeFiles/self.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14 "Built target self"
+.PHONY : source/user/CMakeFiles/self.dir/all
+
+# Build rule for subdir invocation for target.
+source/user/CMakeFiles/self.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles 10
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/user/CMakeFiles/self.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles 0
+.PHONY : source/user/CMakeFiles/self.dir/rule
+
+# Convenience name for target.
+self: source/user/CMakeFiles/self.dir/rule
+
+.PHONY : self
+
+# clean rule for target.
+source/user/CMakeFiles/self.dir/clean:
+	$(MAKE) $(MAKESILENT) -f source\user\CMakeFiles\self.dir\build.make source/user/CMakeFiles/self.dir/clean
+.PHONY : source/user/CMakeFiles/self.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

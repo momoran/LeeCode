@@ -1,2 +1,0 @@
-C:\MinGW\bin\ar.exe qc libMath.a CMakeFiles/Math.dir/DuplicateNum.cpp.obj CMakeFiles/Math.dir/HammingWeight.cpp.obj CMakeFiles/Math.dir/IntReverse.cpp.obj CMakeFiles/Math.dir/MatchAdd.cpp.obj CMakeFiles/Math.dir/RemoveDuplicateNum.cpp.obj CMakeFiles/Math.dir/StringOvrride.cpp.obj CMakeFiles/Math.dir/SubArray.cpp.obj CMakeFiles/Math.dir/UnglyNumber.cpp.obj CMakeFiles/Math.dir/UnglyNumberNo.cpp.obj
-C:\MinGW\bin\ranlib.exe libMath.a

@@ -142,17 +142,30 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named Math
+# Target rules for targets named elib
 
 # Build rule for target.
-Math: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Math
-.PHONY : Math
+elib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 elib
+.PHONY : elib
 
 # fast build rule for target.
-Math/fast:
-	$(MAKE) $(MAKESILENT) -f source\CMakeFiles\Math.dir\build.make source/CMakeFiles/Math.dir/build
-.PHONY : Math/fast
+elib/fast:
+	$(MAKE) $(MAKESILENT) -f source\elib\CMakeFiles\elib.dir\build.make source/elib/CMakeFiles/elib.dir/build
+.PHONY : elib/fast
+
+#=============================================================================
+# Target rules for targets named self
+
+# Build rule for target.
+self: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 self
+.PHONY : self
+
+# fast build rule for target.
+self/fast:
+	$(MAKE) $(MAKESILENT) -f source\user\CMakeFiles\self.dir\build.make source/user/CMakeFiles/self.dir/build
+.PHONY : self/fast
 
 main.obj: main.cpp.obj
 
@@ -189,8 +202,9 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Math
+	@echo ... elib
 	@echo ... main
+	@echo ... self
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

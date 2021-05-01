@@ -11,11 +11,14 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "include"
+  "include/elib"
+  "include/user"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/CMakeFiles/Math.dir/DependInfo.cmake"
+  "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/user/CMakeFiles/self.dir/DependInfo.cmake"
+  "D:/Documents/programming/codeSet/LeeCode/LeeCode/source/elib/CMakeFiles/elib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

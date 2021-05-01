@@ -1,2 +1,2 @@
-AUX_SOURCE_DIRECTORY(. DIR_MAIN_SOURCE)
-ADD_LIBRARY (Math ${DIR_MAIN_SOURCE})
+add_subdirectory(elib)
+add_subdirectory(user)

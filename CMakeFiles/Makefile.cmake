@@ -13,6 +13,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.19.1/CMakeSystem.cmake"
   "CMakeLists.txt"
   "source/CMakeLists.txt"
+  "source/elib/CMakeLists.txt"
+  "source/user/CMakeLists.txt"
   "D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCInformation.cmake"
   "D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCXXInformation.cmake"
   "D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -48,10 +50,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "source/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "source/elib/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "source/user/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/main.dir/DependInfo.cmake"
-  "source/CMakeFiles/Math.dir/DependInfo.cmake"
+  "source/elib/CMakeFiles/elib.dir/DependInfo.cmake"
+  "source/user/CMakeFiles/self.dir/DependInfo.cmake"
   )
