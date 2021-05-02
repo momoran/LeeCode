@@ -40,6 +40,24 @@ android/log.h
 assert.h
 -
 
+include/user/BricksLeast.h
+std_lib.h
+include/user/std_lib.h
+operateLib.h
+include/user/operateLib.h
+vector
+-
+
+include/user/BricksLeast2.h
+std_lib.h
+include/user/std_lib.h
+operateLib.h
+include/user/operateLib.h
+vector
+-
+map
+-
+
 include/user/CommonInterferce.h
 memory
 -
@@ -79,6 +97,10 @@ EmployeeImporance.h
 include/user/EmployeeImporance.h
 SquareNum.h
 include/user/SquareNum.h
+BricksLeast.h
+include/user/BricksLeast.h
+BricksLeast2.h
+include/user/BricksLeast2.h
 
 include/user/DuplicateNum.h
 std_lib.h

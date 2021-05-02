@@ -148,8 +148,8 @@ source/user/clean: source/user/CMakeFiles/self.dir/clean
 # Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all: source/user/CMakeFiles/self.dir/all
 CMakeFiles/main.dir/all: source/elib/CMakeFiles/elib.dir/all
+CMakeFiles/main.dir/all: source/user/CMakeFiles/self.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=3,4 "Built target main"
@@ -157,7 +157,7 @@ CMakeFiles/main.dir/all: source/elib/CMakeFiles/elib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles 0
 .PHONY : CMakeFiles/main.dir/rule
@@ -206,12 +206,12 @@ source/elib/CMakeFiles/elib.dir/clean:
 source/user/CMakeFiles/self.dir/all:
 	$(MAKE) $(MAKESILENT) -f source\user\CMakeFiles\self.dir\build.make source/user/CMakeFiles/self.dir/depend
 	$(MAKE) $(MAKESILENT) -f source\user\CMakeFiles\self.dir\build.make source/user/CMakeFiles/self.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target self"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target self"
 .PHONY : source/user/CMakeFiles/self.dir/all
 
 # Build rule for subdir invocation for target.
 source/user/CMakeFiles/self.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/user/CMakeFiles/self.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\programming\codeSet\LeeCode\LeeCode\CMakeFiles 0
 .PHONY : source/user/CMakeFiles/self.dir/rule

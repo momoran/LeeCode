@@ -143,6 +143,60 @@ self/fast:
 	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\user\CMakeFiles\self.dir\build.make source/user/CMakeFiles/self.dir/build
 .PHONY : self/fast
 
+BricksLeast.obj: BricksLeast.cpp.obj
+
+.PHONY : BricksLeast.obj
+
+# target to build an object file
+BricksLeast.cpp.obj:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\user\CMakeFiles\self.dir\build.make source/user/CMakeFiles/self.dir/BricksLeast.cpp.obj
+.PHONY : BricksLeast.cpp.obj
+
+BricksLeast.i: BricksLeast.cpp.i
+
+.PHONY : BricksLeast.i
+
+# target to preprocess a source file
+BricksLeast.cpp.i:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\user\CMakeFiles\self.dir\build.make source/user/CMakeFiles/self.dir/BricksLeast.cpp.i
+.PHONY : BricksLeast.cpp.i
+
+BricksLeast.s: BricksLeast.cpp.s
+
+.PHONY : BricksLeast.s
+
+# target to generate assembly for a file
+BricksLeast.cpp.s:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\user\CMakeFiles\self.dir\build.make source/user/CMakeFiles/self.dir/BricksLeast.cpp.s
+.PHONY : BricksLeast.cpp.s
+
+BricksLeast2.obj: BricksLeast2.cpp.obj
+
+.PHONY : BricksLeast2.obj
+
+# target to build an object file
+BricksLeast2.cpp.obj:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\user\CMakeFiles\self.dir\build.make source/user/CMakeFiles/self.dir/BricksLeast2.cpp.obj
+.PHONY : BricksLeast2.cpp.obj
+
+BricksLeast2.i: BricksLeast2.cpp.i
+
+.PHONY : BricksLeast2.i
+
+# target to preprocess a source file
+BricksLeast2.cpp.i:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\user\CMakeFiles\self.dir\build.make source/user/CMakeFiles/self.dir/BricksLeast2.cpp.i
+.PHONY : BricksLeast2.cpp.i
+
+BricksLeast2.s: BricksLeast2.cpp.s
+
+.PHONY : BricksLeast2.s
+
+# target to generate assembly for a file
+BricksLeast2.cpp.s:
+	cd /d D:\Documents\programming\codeSet\LeeCode\LeeCode && $(MAKE) $(MAKESILENT) -f source\user\CMakeFiles\self.dir\build.make source/user/CMakeFiles/self.dir/BricksLeast2.cpp.s
+.PHONY : BricksLeast2.cpp.s
+
 DuplicateNum.obj: DuplicateNum.cpp.obj
 
 .PHONY : DuplicateNum.obj
@@ -476,6 +530,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... self
+	@echo ... BricksLeast.obj
+	@echo ... BricksLeast.i
+	@echo ... BricksLeast.s
+	@echo ... BricksLeast2.obj
+	@echo ... BricksLeast2.i
+	@echo ... BricksLeast2.s
 	@echo ... DuplicateNum.obj
 	@echo ... DuplicateNum.i
 	@echo ... DuplicateNum.s

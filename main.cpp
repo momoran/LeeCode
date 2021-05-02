@@ -7,7 +7,7 @@ int main()
         {FAILURE, "the result is faiure"},
         {INVALID, "please init result"},
     };
-    std::unique_ptr<StdLibBase> ptr(new SquareNum());
+    std::unique_ptr<StdLibBase> ptr(new BricksLeast2());
     auto it = output.find(ptr->execute());
     if (it != output.end()) {
         std::cout << it->second << std::endl;

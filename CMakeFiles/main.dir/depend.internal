@@ -4,6 +4,8 @@
 CMakeFiles/main.dir/main.cpp.obj
  D:/Documents/programming/codeSet/LeeCode/LeeCode/main.cpp
  include/elib/tinyxml2.h
+ include/user/BricksLeast.h
+ include/user/BricksLeast2.h
  include/user/CommonInterferce.h
  include/user/DuplicateNum.h
  include/user/EmployeeImporance.h

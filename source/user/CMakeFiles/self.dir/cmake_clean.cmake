@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/self.dir/BricksLeast.cpp.obj"
+  "CMakeFiles/self.dir/BricksLeast2.cpp.obj"
   "CMakeFiles/self.dir/DuplicateNum.cpp.obj"
   "CMakeFiles/self.dir/EmployeeImporance.cpp.obj"
   "CMakeFiles/self.dir/HammingWeight.cpp.obj"
