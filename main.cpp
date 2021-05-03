@@ -7,10 +7,11 @@ int main()
         {FAILURE, "the result is faiure"},
         {INVALID, "please init result"},
     };
-    std::unique_ptr<StdLibBase> ptr(new BricksLeast2());
+    std::unique_ptr<StdLibBase> ptr(new CrcCalculate());
     auto it = output.find(ptr->execute());
     if (it != output.end()) {
         std::cout << it->second << std::endl;
     }
+
     return 0;
 }

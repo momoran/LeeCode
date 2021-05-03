@@ -9,6 +9,9 @@
 #include "operateLib.h"
 #include "std_lib.h"
 
+// 自定义库函数
+#include "CRC.h"
+
 // 多态库
 #include "SubArray.h"
 #include "HammingWeight.h"
@@ -24,3 +27,4 @@
 #include "SquareNum.h"
 #include "BricksLeast.h"
 #include "BricksLeast2.h"
+#include "CrcCalculate.h"

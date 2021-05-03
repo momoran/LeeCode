@@ -3,11 +3,12 @@ PROJECT(main)
 INCLUDE_DIRECTORIES(
     ${CMAKE_CURRENT_SOURCE_DIR}/include
     ${CMAKE_CURRENT_SOURCE_DIR}/include/elib
-    ${CMAKE_CURRENT_SOURCE_DIR}/include/user)
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/user
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/olib)
 add_subdirectory(source)
 AUX_SOURCE_DIRECTORY(. DIR_SRCS)
 ADD_EXECUTABLE(main ${DIR_SRCS})
 
-TARGET_LINK_LIBRARIES(main self elib)
+TARGET_LINK_LIBRARIES(main self elib ownLib)
 
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/build)
