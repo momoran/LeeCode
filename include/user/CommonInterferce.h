@@ -28,3 +28,4 @@
 #include "BricksLeast.h"
 #include "BricksLeast2.h"
 #include "CrcCalculate.h"
+#include "EvalRPNExpress.h"
