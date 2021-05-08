@@ -8,12 +8,12 @@ WORD CRC::GenerateCRCTableReverse()
     DWORD poly = 0xEDB88320; //生成多项式
     for(int i = 0; i < CRC_TABLE_LEN; i++) {
         DWORD CRCTmp = i;
-        for (int j = 0; j < 8; j++)
-        {
-        if (CRCTmp & 1)
-            CRCTmp = (CRCTmp >> 1) ^ poly;
-        else
-            CRCTmp >>= 1;
+        for (int j = 0; j < 8; j++) {
+            if (CRCTmp & 1) {
+                CRCTmp = (CRCTmp >> 1) ^ poly;
+            } else {
+                CRCTmp >>= 1;
+            }  
         }
         crc32Table[i] = CRCTmp; 
     }
@@ -26,12 +26,12 @@ WORD CRC::GenerateCRCTableNormal()
     DWORD poly = 0x04c11db7; //生成多项式
     for(int i = 0; i < CRC_TABLE_LEN; i++) {
         DWORD CRCTmp = i << 24;
-        for (int j = 0; j < 8; j++)
-        {
-            if (CRCTmp & 0x80000000)
+        for (int j = 0; j < 8; j++) {
+            if (CRCTmp & 0x80000000) {
                 CRCTmp = (CRCTmp << 1) ^ poly;
-            else
+            } else {
                 CRCTmp <<= 1;
+            }   
         }
         crc32Table[i] = CRCTmp; 
     }
@@ -53,8 +53,7 @@ void CRC::PrintCRC32Table()
 DWORD CRC::CalculateCRC32Reverse(const BYTE* buf, WORD len)
 {
     DWORD CRC32_data = m_defaultInit;
-    for (WORD i = 0; i != len; ++i)
-    {
+    for (WORD i = 0; i != len; ++i) {
         DWORD t = (CRC32_data ^ buf[i]) & 0xFF;
         CRC32_data = ((CRC32_data >> 8) & 0xFFFFFFFF) ^ crc32Table[t];
     }
@@ -66,8 +65,7 @@ DWORD CRC::CalculateCRC32Reverse(const BYTE* buf, WORD len)
 DWORD CRC::CalculateCRC32Normal(const BYTE* buf, WORD len)
 {
     DWORD CRC32_data = m_defaultInit;
-    for (WORD i = 0; i != len; ++i)
-    {
+    for (WORD i = 0; i != len; ++i) {
         DWORD t = ((CRC32_data >> 24) ^ buf[i]) & 0xFF;
         CRC32_data = ((CRC32_data << 8) & 0xFFFFFFFF) ^ crc32Table[t];
     }
@@ -98,7 +96,7 @@ void CRC::PrintOutFlag()
     std::cout << "m_xorOut is " << (m_xorOut ? "true" : "false") << std::endl;
     std::cout << "m_revOut is " << (m_revOut ? "true" : "false") << std::endl;
     std::cout << "m_isDefaultInit is " << (m_isDefaultInit ? "true" : "false") 
-        << std::hex << m_defaultInit << std::endl;
+              << std::hex << m_defaultInit << std::endl;
 }
 
 DWORD CRC::HanleOutCRC(DWORD num)

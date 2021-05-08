@@ -14,7 +14,7 @@ WORD CrcCalculate::CrcFunTest()
     BYTE tmpString[] = {0x1};
     tmp.GenerateCRCTableNormal();
     tmp.PrintCRC32Table();
-    tmp.SetOutFlag(true, false, false);
+    tmp.SetOutFlag(false, false);
     tmp.PrintOutFlag();
     std::cout << std::hex << "result:" << tmp.CalculateCRC32Normal(tmpString, sizeof(tmpString))
         << std::endl;
