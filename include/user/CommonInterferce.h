@@ -30,3 +30,4 @@
 #include "CrcCalculate.h"
 #include "EvalRPNExpress.h"
 #include "MakeFlowers.h"
+#include "SubArrayXor.h"
