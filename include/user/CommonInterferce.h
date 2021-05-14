@@ -31,3 +31,4 @@
 #include "EvalRPNExpress.h"
 #include "MakeFlowers.h"
 #include "SubArrayXor.h"
+#include "ArrayXorEncode.h"
