@@ -33,3 +33,5 @@
 #include "SubArrayXor.h"
 #include "ArrayXorEncode.h"
 #include "RomanConvert.h"
+#include "MaxArrayXor.h"
+#include "FindKthMaxValue.h"
