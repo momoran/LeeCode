@@ -16,12 +16,17 @@ public:
     WORD VerifyResult() override;
     
 private:
-    bool IsPalindrome(std::string s);
-    int MaxChildArrayOrder(std::vector<int> arr);
+    int uniquePaths(int m, int n);
+    int uniquePathsWithObstacles(std::vector<std::vector<int>>& obstacleGrid);
+    int minPathSum(std::vector<std::vector<int>>& grid);
     std::string longestPalindrome(std::string s);
-    std::string m_inputStr;
-    std::string result;
-    std::string hopeResult;
+    // std::vector<std::vector<int>> m_obstacleGrid;
+    std::vector<std::vector<int>> m_Grid;
+    int result;
+    int hopeResult;
+    int m_mAxies;
+    int m_nAxies;
+
 };
 
 #endif
