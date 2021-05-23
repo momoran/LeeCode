@@ -3,14 +3,39 @@
 #include <set>
 #include <algorithm>
 #include <memory>
-
+#include <set>
 WORD DynamicProgram::execute()
 {
     UpdateTestCase();
     // result = uniquePaths(m_mAxies,m_nAxies);
     // result = uniquePathsWithObstacles(m_obstacleGrid);
-    result = minPathSum(m_Grid);
+    // result = minPathSum(m_Grid);
+
+    result = lengthOfLIS(m_nums);
+    // partition(m_str);
     return VerifyResult();
+}
+
+
+int DynamicProgram::lengthOfLIS(std::vector<int>& nums)
+{
+    int n = nums.size();
+    std::vector<int> dpArray(n);
+    for(int i = 0; i < n; i++) {
+        dpArray[i] = 1;
+    }
+    int maxvalue = 1;
+    for(int i = 1; i < n; i++) {
+        for (int j = 0; j < i; j++) {
+            if(nums[i] > nums[j]) {
+                dpArray[i] = dpArray[i] > dpArray[j] + 1 ? dpArray[i] : dpArray[j] + 1;
+            }
+        }
+        if(dpArray[i] > maxvalue) {
+            maxvalue = dpArray[i];
+        }
+    }
+    return dpArray[n-1];
 }
 
 int DynamicProgram::uniquePaths(int m, int n)
@@ -138,8 +163,9 @@ void DynamicProgram::UpdateTestCase()
     // 无障碍路径数
     // m_mAxies = 3;
     // m_nAxies = 7;
-    m_Grid = {{1,2,3},{4,5,6}};
-    hopeResult = 12;
+    // m_Grid = {{1,2,3},{4,5,6}};
+    m_nums = {10,9,2,5,3,7,101,18};
+    hopeResult = 4;
 }
 
 WORD DynamicProgram::VerifyResult()
