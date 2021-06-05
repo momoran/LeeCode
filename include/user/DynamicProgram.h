@@ -20,8 +20,11 @@ private:
     int uniquePathsWithObstacles(std::vector<std::vector<int>>& obstacleGrid);
     int minPathSum(std::vector<std::vector<int>>& grid);
     std::string longestPalindrome(std::string s);
+    int lengthOfLIS(std::vector<int>& nums);
+    // std::vector<std::vector<std::string>> partition(std::string s);
     // std::vector<std::vector<int>> m_obstacleGrid;
-    std::vector<std::vector<int>> m_Grid;
+    std::vector<int> m_nums;
+    std::string m_str;
     int result;
     int hopeResult;
     int m_mAxies;
